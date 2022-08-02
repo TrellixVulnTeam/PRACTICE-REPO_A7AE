@@ -1,0 +1,232 @@
+==================================================================================
+W3SCHOOLS HTML REFERENCE
+==================================================================================
+### HTML Tutorial 
+01. home + introduction + editors + basic
+02. elements + attributes + comments
+
+03. headings + paragraphs
+04. styles + colors + css + javascript
+05. classes + id + file paths
+
+06. formatting + quotations + computer-code 
+
+07. list + tables
+08. links + images + favicon
+09. block & inline + iframes + layout 
+
+10. head + charset + url encode
+11. semantics + responsive + html vs xhtml
+12. style guide + entities + symbols + emojis  
+
+### HTML forms
+13. forms + form attributes + form elements 
+14. input types + input attributes + input form attributes 
+
+### HTML graphics 
+15. canvas + svg 
+
+### HTML media 
+16. media + video + audio + plug-ins + youtube
+
+### HTML apis 
+17. geolocation + drag-drop + web storage + web workers + SSE
+18. html accessibility 
+
+### HTML References 
+01. tag reference 
+02. browser supports 
+03. event reference 
+04. color reference 
+05. attribute reference 
+06. canvas reference
+07. svg reference 
+08. google maps reference 
+
+==================================================================================
+W3SCHOOLS CSS REFERENCE
+==================================================================================
+### CSS Tutorial
+01. home + introduction + syntax + comments
+02. how-to + selectors + colors 
+
+03. backgrounds + borders 
+04. box-model + outline
+05. margins + padding + height-width + max-width 
+
+06. text + fonts + icons 
+07. links + lists + tables
+
+08. display + position
+09. overflow + float + inline-block + align
+10. z-index + opacity 
+
+11. combinator + attr-selectors  
+12. pseudo-class + pseudo-element 
+13. navigation-bar + dropdowns
+14. image-gallery + image-sprites
+
+15. forms + counters + website-layout 
+16. units + specificity + limportant + math functions 
+
+### CSS Advanced 
+17. rounded-corners + border-images + backgrounds 
+18. colors + color-keywords + gradients + shadows 
+19. text-effects + web-fonts 
+20. 2d-transforms + 3d-transforms + transitions 
+21. animations + tooltips + style-images
+22. image-reflection + object-fit + object-position 
+23. masking + buttons + pagination + multiple-columns 
+24. user-interface + variables + box-sizing 
+25. media-queries + flexbox 
+
+### CSS Responsive 
+26. intro + viewport + grid-view 
+27. media-queries + images + videos 
+28. frameworks + templates 
+
+### CSS Grid
+29. intro + container + item 
+
+### CSS References
+01. css reference 
+02. css browser support 
+03. css selector reference 
+04. bootstrap 3 reference 
+05. bootstrap 4 reference 
+06. w3.css references
+07. icon reference 
+08. sass reference
+
+### Character Set References 
+
+==================================================================================
+W3SCHOOLS CSS SASS REFERENCE
+==================================================================================
+### CSS SASS
+30. home + intro + installation 
+31. variables + nesting 
+32. import + mixin + extend
+33. string + numeric 
+34. list + map 
+35. selector + introspection + color
+
+==================================================================================
+W3SCHOOLS HTML GRAPHICS REFERENCE
+==================================================================================
+### google maps 
+> intor + basic + overlays 
+> events + controls + types 
+> maps reference 
+
+### SVG tutorial 
+> intro + SVG in HTML 
+> rectangle + circle 
+> ellipse + line 
+> polygon + polyline 
+> path + text 
+> stroking + filters intro 
+> blur effects + drop shadows 
+> linear + radial 
+
+### canvas tutorial 
+> intro + drawing 
+> coordinates + gradients 
+> text + images 
+> reference 
+
+### canvas clock 
+> intro + face 
+> numbers + hands + start 
+
+### HTML game 
+> intro + canvas 
+> components + controllers 
+> obstacles + score 
+> images + sound 
+> gravity + bouncing 
+> rotation + movement 
+
+==================================================================================
+MDN HTML REFERENCE
+==================================================================================
+01. HTML basics
+02. structuring the web HTML
+03. introduction to HTML
+    > introduction to HTML overview 
+    > getting started with HTML 
+    > what's in the head? metadata in HTML 
+    > HTML text fundamentals 
+    > creating hyperlinks 
+    > advanced text formatting 
+    > document and website structure 
+    > debugging HTML 
+    > assessment - marking up a letter 
+    > assessment - structuring a page of content 
+04. multimedia and embedding 
+    > multimedia and embedding overview 
+    > images in HTML 
+    > video and audio content 
+    > from object oto iframe - other embedding technologies 
+    > adding vector graphics to the web 
+    > responsive images 
+    > assessment - mozilla splash page 
+05. HTML tables 
+    > HTML tables overview 
+    > HTML table basics 
+    > HTML table advanced features and accessibility 
+    > assessment - structuring planet data 
+06. HTML - HyperText Markup Language (references)
+
+==================================================================================
+MDN CSS REFERENCE
+==================================================================================
+01. CSS basics
+02. learn to style HTML using CSS
+03. CSS first steps 
+    > CSS first steps overview 
+    > what is CSS
+    > getting started with CSS
+    > how CSS is structured 
+    > how CSS works 
+    > assessment - styling a biography page 
+04. CSS building blocks 
+    > CSS building blocks overview 
+    > Cascade and inheritance 
+    > CSS selectors 
+    > the box model 
+    > backgrounds and borders 
+    > handling different text directions 
+    > overflowing content 
+    > CSS values and units 
+    > sizing items in CSS
+    > images, media, and form elements 
+    > styling tables 
+    > debugging CSS
+    > organizing your CSS
+    > assessment - fundamental CSS comprehension 
+    > assessment - creating fancy letter-headed paper 
+    > assessment - a cool-looking box 
+05. styling text 
+    > styling text overview 
+    > fundamental text and font styling 
+    > styling lists 
+    > styling links 
+    > web fonts 
+    > assessment - typesetting a community school homepage 
+06. CSS layout 
+    > CSS layout overview 
+    > introduction to CSS layout 
+    > normal flow 
+    > flexbox 
+    > grids 
+    > floats 
+    > positioning 
+    > multiple-column layout 
+    > responsive design 
+    > beginner's guide to media queries 
+    > legacy layout methods 
+    > supporting older browsers 
+    > assessment - fundamental layout comprehension 
+07. CSS - Cascading Style Sheets (references)
+

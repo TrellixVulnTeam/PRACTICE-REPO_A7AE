@@ -1,0 +1,63 @@
+---------------------------------------------------------------------------
+Starting with JavaScript
+---------------------------------------------------------------------------
+-> javascript is one of the 3 languages all web developers must learn 
+    - HTML to define the content of web pages 
+    - CSS to specify the layout of web pages 
+    - JavaScript to program the behavior of web pages 
+-> versions of javascript 
+    - the original javascript ES1, ES2, ES3 (1997-1999)
+    - the first main revision ES5 (2009) 
+    - the second revision ES6 (2015)
+    - the yearly additions (2016, 2017, 2018) 
+-> there is not need to download js, it is already running in your web browser 
+-> what can javascript do 
+    - javascript can change HTML content 
+    - javascript cna change HTML attribute values 
+    - javascript can change HTML style (css) 
+    - javascript can hide and show HTML elements 
+    - javascript can create HTML elements 
+    - javascript can check HTML-Form Validity
+
+-> javascript is a programming language that adds interactivity to your website 
+-> this happens in a games, in the behavior of responses when buttons are pressed or 
+   with data entry on forms, with dynamic styling, with animation, etc 
+
+# what is javascript (MDN)
+-> JS is a powerful programming language that can add interactivity to a website
+-> it was intented by Brendan Eich 
+-> javascript is versatile and beginner-friendly
+-> with more experience, you'll be able to create game, animated 2D and 3D graphics, 
+-- comprehensive (database-driven) apps, and much more 
+-> javascript itself is relatively compact, yet very flexible
+-> developers have written a variety of tools on top of the core js language, 
+-- unlocking a vast amount of functionality with minimum effort. these include - 
+    -> browser application programming interface (APIs) built into web browsers, 
+      - providing functionality such as dynamically creating HTML and setting CSS,
+      - collecting and manipulating a video stream from a user's webcam, 
+      - or generating 3D graphics 
+      - and audio samples 
+    -> third-party (APIs) that allow developers to incorporate functionality in 
+    -- in sites from other content providers, such as twitter or facebook 
+    -> third-party frameworks and libraries that you can apply to HTML to accelerate 
+    -- the work of building sites and applications 
+-> NB: the core javascript language is different from the tools listed above 
+-- there are some aspects of the core language and offers an opportunity to play 
+   with a few browser API features too - 
+
+   -> a hello world example 
+   -> language basics crash course 
+   -- variables 
+   -- data types 
+   -- comments 
+   -- operators 
+   -- conditionals 
+   -- functions 
+   -- events 
+   -> supercharging our example website 
+   -- adding an image changer 
+   -- adding a personalized welcome message 
+   -- a user name of null 
+   -> conclusion 
+
+# Where to use | output | statements | syntax | comment (W3Schools)

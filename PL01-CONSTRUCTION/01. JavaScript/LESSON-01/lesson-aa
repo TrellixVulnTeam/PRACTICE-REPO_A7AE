@@ -1,0 +1,124 @@
+---------------------------------------------------------------------------
+About Javascript ---------------------------------------------------------------------------
+# JavaScript 
+-> javascript is a lightweight, interpreted, or (just-in-time) compiled 
+-- programming language with (first-class functions) 
+-> javascript is (prototype-based), (multi-paradigm), (single-threaded), dynamic 
+-- language, supporting (object-oriented), (imperative), and (declarative) like 
+-- (functional programming) styles 
+-> javascript can function as both a (procedural) and an (object-oriented) 
+-> JS is dynamic scripting language supporting (prototype based) object construction 
+
+-> the basic syntax is internationally similar to both java and C++ to reduce the 
+-- number of new concepts required to learn the language 
+
+-> object are created programmatically in javascript, by attaching methods and 
+-- properties to otherwise empty object at run time, as opposed to the syntactic 
+-- class definitions common in compiled language 
+-> once an object has been constructed it can be used as a blueprint (prototype) for
+-- creating similar objects 
+-> javascript dynamic capabilities include runtime object construction, variable 
+-- parameter lits, function variables, dynamic script creation (via eval), 
+-- object introspection (via for ... in), and source code recovery 
+-> javascript has HTML and browser object with properties, methods and events 
+
+-> javascript is the world's most popular programming language 
+-> while it is most well-known as the scripting language for the web pages, 
+-- many non-browser environments also use it, such as (node.JS, Apache-CouchDB)
+-> javascript runs on the client side of the web, which can be used to design/program
+-- how the web pages behave on the occurrence of an event 
+-> JS and java are completely different languages, both in concept and design 
+-- JS was invented by Brendan Eich in 1995, and became an ECMA standard in 1997
+-- ECMA-262 is the official name of the standard
+-- ECMAScript is the official name of the language
+
+# javascript implementations 
+-> the mozilla project provides tow javascript implementations 
+-> the first ever javascript was created by Brendan Eich at Netscape, and has since 
+-- been updated to conform to ECMA-262 Edition 5 and later versions 
+-> this engine, code named (SpiderMonkey), is implemented in C/C++ 
+-> the (Rhino) engine, created primarily by Norris Boyd (also at Netscape) is a 
+-- javascript implementation written in java 
+-> like (SpiderMonkey, Rhino) is ECMA-262 Edition 5 compliant 
+
+-> several major runtime optimizations such as (TraceMonkey - Firefox3.5), 
+-- (jagerMonkey - Firefox 4) and (ionMonkey) were added to the (SpideerMonkey)
+-- javascript engine over time 
+
+-> besides the above implementation, there are other popular javascript engines -
+    - google's V8, which is used in the google-chrome browser and resent versions 
+      of opera browser. this is also the engine used by (NodeJS) 
+    - the JavaScript Core (SquirrelFish/Nitro) used in some WebKit browsers such as 
+      apple safari 
+    - Carakan in old versions of Opera 
+    - the Chakra engine used in IE 
+
+# javascript engine 
+-> a javascript engine is a software component that executes javascript code 
+-> the first javascript engines were mere interpreters, but all relevant modern 
+-- engines use (just-in-time) compilation for improved performance 
+-> javascript engines are typically developed by web browser vendors, and every 
+-- major browser has one. 
+-> in a browser, the javascript engine runs in concert with the rendering engine 
+-- via the DOM (document object model) 
+
+-> the use of javascript engines in not limited to browsers, for example, the 
+-- V8 engine is a core component of the (NodeJS) and (Deno Runtime System)
+-> the ECMAScript is the standardized specification of javascript 
+-- ECMAScript engine is another name for these engines 
+-> with the advent of (WebAssembly) some engines can also execute this code in the 
+-- same sandbox as regular javascript code 
+
+---------------------------------------------------------------------------
+About Programming Methods
+---------------------------------------------------------------------------
+# prototype-based programming 
+-> prototype-based programming is a style of (object-oriented) programming in which
+-- (classes) are not explicitly defined, but rather derived by adding properties and
+-- methods to an instance of another class or less frequently, adding them to an 
+-- empty object 
+-> in simple words - this type of style allows the creating of an object without 
+-- first defining its class
+
+# first-class function 
+-> a programming language is said to have (first-class functions) when functions in 
+-- that language are treated like any other variable. 
+-> for example, in such a language, a function can be passed as an argument ot other 
+-- functions, can be returned by another function and can be assigned as a value to 
+-- a variable 
+
+# programming paradigms 
+-> programming paradigms are a way to classify programming language based on their 
+-- features. languages can be classified into multiple paradigms 
+-> some paradigms are concerned mainly with implications for the execution model of 
+-- the language, such as allowing side effects, or whether the sequence of operations
+-- is defined by the execution model 
+-> other paradigms are concerned mainly with the way that code is organized, such as 
+-- grouping a code into units along with the state that is modified by the code 
+-> yet others are concerned mainly with the style of syntax and grammar 
+-> common programming paradigms include 
+-- imperative - in which the programmer instructs the machine how to change its state
+    - procedural - which groups instructions into procedures 
+    - oop - which groups instructions with the part of the state that operate on 
+-- declarative - in which the programmer merely declares properties of the desired 
+-- result, but not how to compute it  
+    - functional - in which the desired result is declared as the value of a series 
+      of function applications 
+    - logic - in which the desired result is declared as the answer to a question 
+      about a system to facts and rules 
+    - mathematical - in which the desired result is declared as the solution of an 
+      optimization problem 
+    - reactive - in which the desired result is declared with dta streams and the 
+      propagation of change 
+
+# thread 
+-> in computer science, a (thread) of execution is the smallest sequence of
+-- programmed instructions that can be managed independently by a scheduler, which 
+-- is typically a part of the operating system 
+-> the implementation of threads and processes differs between operating systems
+-- but in most cases a thread is a component of a process 
+-> the multiple threads of a given process may be executed concurrently, sharing 
+-- resources such as memory, while different processes do not share these resources
+-> in particular, the threads of a process share its executable code and the values 
+-- of its dynamically allocated variables and no-thread-local global variables at 
+-- any given time 

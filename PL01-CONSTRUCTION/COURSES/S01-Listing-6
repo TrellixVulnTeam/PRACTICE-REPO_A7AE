@@ -1,0 +1,69 @@
+==================================================================================
+W3SCHOOLS XML REFERENCE
+==================================================================================
+### XML tutorial 
+01. home + intro + how to use
+02. tree + syntax + elements + attributes 
+03. namespaces + display + httpRequest + parser
+04. DOM + xPath + XSLT + XQuery 
+05. XLink + validator + DTD 
+06. schema + server 
+
+### XML AJAX
+07. intro + XMLHttp 
+08. request + response 
+09. XML file + database 
+10. application + (php + asp)
+
+### XML DOM 
+11. intro + nodes 
+12. accessing + node info + node list
+13. traversing + navigating + get values 
+14. change nodes + remove nodes + replace nodes 
+15. create nodes + add nodes + clone nodes 
+
+### XPath tutorial 
+16. intro + nodes 
+17. syntax + axes 
+18. operators + examples 
+
+### XSLT tutorial 
+19. intro + languages 
+20. transform + template + value-of
+21. for-each + sort + if 
+22. choose + apply + edit xml 
+23. on the client + on the server 
+24. examples 
+
+### XQuery tutorial 
+25. intro + examples 
+26. FLWOR + HTML 
+27. HTML + terms 
+28. syntax + add 
+29. select + functions 
+
+### DTD 
+30. intro + building blocks 
+31. elements + attributes 
+32. elements vs attr + entities 
+33. examples 
+
+### schema 
+34. intro + how to 
+35. schema + elements + attributes 
+36. restrictions + complex elements 
+37. empty + elements-only 
+38.text-only + mixed 
+39. indicators + any + anyAttribute 
+40. substitution + examples 
+
+### data types 
+41. string + date/time 
+42. numeric + misc 
+43. reference
+
+### web services 
+44. services + WSDL
+45. SOAP + RDF + RSS
+
+### references 

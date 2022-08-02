@@ -1,0 +1,475 @@
+--------------------------------------------------------
+SUBJECT-01 - 01. beginning NodeJS
+--------------------------------------------------------
+# setting up for nodejs development 
+# understanding nodejs
+    01. variables and datatype 
+    02. functions and types of function  
+    03. closures 
+    04. understanding nodejs performance 
+    05. more nodejs internals 
+    06. more javascript 
+# core nodejs
+    01. nodejs file-based module system 
+        > nodejs require function -
+        > nodejs is safe  
+        > conditionally load a module 
+        > blocking 
+        > cached
+        > shared state 
+        > object factories 
+        > nodejs exports - 
+        > module.exports 
+        > exports alias 
+        > modules best practices -
+        > do not use the .js extension 
+        > relative paths 
+        > utilize exports 
+        > export an entire folder 
+    02. important globals 
+        > console 
+        > timers 
+        > __filename and __dirname 
+        > process - 
+        > command line arguments 
+        > process.nextTick
+        > buffer 
+        > global 
+    03. core modules 
+        > consuming core modules 
+        > path module - 
+        > path.normalize 
+        > path.join 
+        > dirname, basename, and extname 
+        > fs module
+        > os module 
+        > util module 
+    04. reusing nodejs code in the browser 
+        > introducing AMD 
+        > setting up requireJS - 
+        > starting the web server 
+        > download requireJS 
+        > bootstrapping requireJS 
+        > client-side application entry point 
+        > playing with AMD - 
+        > more about AMD 
+        > converting nodejs code into browser code - 
+        > browserify demo 
+# nodejs packages
+    01. revisiting node modules 
+        > folder-based modules 
+        > advantages of node_modules - 
+        > simplify long file relative path 
+        > increasing reusability 
+        > decreasing side effects 
+        > overcoming module incompatibility 
+        > module caching and node_modules 
+    02. JSON 
+        > beginner's introduction to JSON 
+        > loading JSON in nodeJS 
+        > the JSON global 
+    03. NPM 
+        > package.json 
+        > installing an NPM package 
+        > saving dependencies 
+        > refresh the node_modules folder 
+        > listing all dependencies 
+        > removing a dependency 
+        > package.json online dependency tracking 
+    04. semantic versioning 
+        > semantic versioning in NPM / package.json 
+        > updating dependencies 
+    05. global nodeJS packages 
+        > using require with global modules 
+    06. package.json and require 
+    07. modules recap 
+    08. popular nodeJS packages 
+        > underscore 
+        > handling command line arguments 
+        > handling date/time using moment 
+        > serializing dates 
+        > customizing console colors - 
+        > how does it works 
+    09. additional resources 
+# events and streams 
+# getting started with http
+# introducing express 
+# persisting data 
+# front-end basics
+# simplifying callbacks 
+# debugging 
+# testing 
+# deployment and scalability 
+
+--------------------------------------------------------
+SUBJECT-01 - 02. nodejs recipes
+--------------------------------------------------------
+# understanding nodejs 
+# networking with nodejs 
+# using the file system 
+# building a web server 
+# using events and child processes 
+# implementing security and cryptography 
+# discovering other node.js modules 
+# creating a websocket server 
+# using web server frameworks 
+# connecting to a data store 
+# testing in nodejs 
+# debugging and deploying your application 
+
+--------------------------------------------------------
+SUBJECT-01 - 03. learning nodejs
+--------------------------------------------------------
+# getting set up
+# node fundamentals - part 1
+# node fundamentals - part 2 
+# node fundamentals - part 3
+# basics of asynchronous programming in nodejs 
+# callbacks in asynchronous programming 
+# promises in asynchronous programming 
+# web servers in node 
+# deploying applications to web 
+# testing the node applications - part 1 
+# testing the node applications - part 2 
+
+--------------------------------------------------------
+SUBJECT-01 - 04. nodejs in action 
+--------------------------------------------------------
+> node fundamentals
+# welcome to nodejs 
+# building a multi-room chat application
+# node programming fundamentals 
+> web application development with node 
+# building node web applications 
+# storing node application data 
+# connect 
+# connect's built-in middleware 
+# express 
+# advanced express 
+# testing node application 
+# web application templating 
+> going further with node 
+# deploying node applications and maintaining uptime 
+# beyond web servers 
+# the node ecosystem 
+
+--------------------------------------------------------
+SUBJECT-01 - 05. expressjs guide
+--------------------------------------------------------
+> quick start 
+> the interface 
+# configuration 
+# settings 
+# environments 
+# applying middleware 
+# types of middleware 
+# different template engines 
+# extracting parameters 
+# routing 
+# request handlers 
+# request 
+# response 
+# error handling 
+# running an app 
+> tips and tricks 
+# abstraction 
+# using databases in modules 
+# keys and passwords 
+# streams 
+# redis 
+# authentication 
+# multi-threading with clusters 
+# consolidate.js 
+# stylus. LESS and SASS 
+# security 
+# socket.IO
+# domains 
+> tutorials and examples 
+# instagram gallery 
+# todo app 
+# REST API 
+# hackHall 
+# expressWorks 
+# related reading and resources 
+
+--------------------------------------------------------
+SUBJECT-01 - 06. express in action 
+--------------------------------------------------------
+> intro 
+# what is express 
+# the basics of nodejs 
+# foundations of express 
+> core 
+# middleware 
+# routing 
+# building APIs
+# views and templates: pug and EJS 
+> express in context 
+# persisting your data with mongoDB 
+# testing express applications 
+# security 
+# deployment: assets and heroku 
+# best practices 
+
+--------------------------------------------------------
+SUBJECT-02 - 01. SQL Complete Reference
+--------------------------------------------------------
+part 1 - an overview of sql
+> introduction 
+> a quick tour of sql
+> sql in perspective 
+> relational databases 
+
+part 2 - retrieving data 
+> sql basics 
+> simple queries 
+> multi-table queries (joins) 
+> summary queries 
+> sub-queries and query expressions
+
+part 3 - updating data 
+> database updates 
+> data integrity 
+> transaction processing 
+
+part 4 - database structure 
+> creating a database 
+> views 
+> sql security 
+> the system catalog 
+
+part 5 - programming with sql 
+> embedded sql 
+> dynamic sql 
+> sql apis
+
+part 6 - sql today and tomorrow 
+> database processing and stored procedural sql 
+> sql and data warehousing 
+> sql and application servers 
+> sql networking and distributed databases 
+> sql and objects 
+> sql and xml 
+> specialty databases 
+> the future of sql 
+
+part 7 - appendixes 
+> the sample database 
+> dbms vendor profiles 
+
+--------------------------------------------------------
+SUBJECT-02 - 02. learning SQL
+--------------------------------------------------------
+> a little background 
+> creating and populating a database 
+> query primer 
+> filtering 
+> querying multiple tables 
+> working with sets 
+> data generation, conversion, and manipulation 
+> groping and aggregates 
+> sub-queries 
+> joins revisited 
+> conditional logic 
+> transactions 
+> indexes and constraints 
+> views 
+> metadata 
+> ER diagram for example database 
+> MySQL Extensions to the SQL language 
+
+--------------------------------------------------------
+SUBJECT-02 - 03. the definitive gide to SQLite
+--------------------------------------------------------
+> introducing SQLite 
+> getting started 
+> SQL for SQLite 
+> advanced SQL and SQLite 
+> SQLite design and concepts 
+> the core c api 
+> the extension c api 
+> language extensions 
+> SQLite internals and new features 
+
+--------------------------------------------------------
+SUBJECT-02 - 04. database design know it all 
+--------------------------------------------------------
+> introduction 
+> entity-relationship concepts 
+> data modeling in uml
+> requirements analysis and conceptual data modeling 
+> logical database design 
+> normalization 
+> physical database design 
+> de-normalization 
+> business metadata infrastructure 
+> storing xml and databases 
+> modeling and querying current movement 
+
+--------------------------------------------------------
+SUBJECT-02 - 05. beginning database design solutions 
+--------------------------------------------------------
+part 1 - introduction to databases and database design 
+> goals of effective database design 
+> database types 
+> relational database fundamentals 
+
+part 2 - database design process and techniques 
+> understanding user needs 
+> translating user needs into data models 
+> extracting business rules 
+> normalizing data 
+> designing database to support software application 
+> common design patters 
+> common design pitfalls 
+
+part 3 - a detalled case study 
+> user needs and requirements 
+> building a data model 
+> extracting business rules 
+> normalization and refinement 
+
+part 4 - implementing database (with example in access) 
+> microsoft access 
+> mysql 
+
+part 5 - advanced topics 
+> introduction to sql 
+> building databases with sql scripts 
+> database maintenance 
+> database security 
+> sample database designs 
+
+--------------------------------------------------------
+SUBJECT-03 - 01. learning MySQL
+--------------------------------------------------------
+part 1 - introduction 
+> introduction 
+> installing MySQL 
+> using the MySQL Monitor 
+
+part 2 - using mysql 
+> modeling and designing databases 
+> basic sql 
+> working with database structure 
+> advanced querying 
+> doing more with mysql 
+> managing users and privileges 
+
+part 3 - advanced topics 
+> backups and recovery 
+> using and options file 
+> configuring and tuning the server 
+
+part 4 - web database applications with php 
+> web database application 
+> php 
+> a php application - the wedding gift registry 
+
+--------------------------------------------------------
+SUBJECT-03 - 02. Pro MySQL 
+--------------------------------------------------------
+part 1 - design and development 
+> analyzing business requirement 
+> index concepts 
+> transaction processing 
+> mysql system architecture 
+> storage engines and data types 
+> benchmarking and profiling 
+> essential sql 
+> sql scenarios 
+> functions 
+> cursors 
+> views 
+> triggers 
+
+part 2 - administration 
+> mysql installation and configuration 
+> user administration 
+> security 
+> backup and restoration 
+> replication 
+> cluster 
+> troubleshooting 
+> mysql data dictionary 
+
+--------------------------------------------------------
+SUBJECT-03 - 03. mysql cookbook
+--------------------------------------------------------
+> using the mysql client program 
+> writing mysql based programs 
+> selecting data from tables 
+> table management 
+> working with strings 
+> working with dates and times 
+> sorting query results 
+> generating summaries 
+> using stored routines, triggers, and scheduled events 
+> working with metadata 
+> importing and exporting data 
+> validating and reformatting data 
+> generating and using sequences 
+> using joins and sub-queries 
+> statistical techniques 
+> handling duplicates 
+> performing transactions 
+> introduction to mysql on the web 
+> generating web content from query results 
+> processing web input with mysql 
+> using mysql based web session management 
+> server administration 
+> security 
+
+--------------------------------------------------------
+SUBJECT-03 - 04. Mysql Certification Exam 
+--------------------------------------------------------
+mysql developer 1 exam 
+> client/server concepts 
+> the mysql client program 
+> mysql query browser 
+> mysql connectors 
+> data types 
+> identifiers 
+> databases 
+> tables and indexes 
+> querying for data 
+> sql expressions 
+> updating data 
+
+mysql developer 2 exam 
+> joins 
+> sub-queries 
+> views 
+> importing and exporting data 
+> user variables 
+> prepared statements 
+> stored procedures and functions 
+> triggers 
+> obtaining database metadata 
+> debugging mysql application 
+> basic optimizations 
+
+mysql dba 1 exam 
+> mysql architecture 
+> starting, stopping, and configuring mysql. 
+> client program for dba work 
+> mysql administrator 
+> character set support 
+> locking 
+> storage engines 
+> table maintenance 
+> the information_schema database 
+> data backup and recovery methods 
+
+mysql dba 2 exam 
+> using stored routines and triggers for administration 
+> user management 
+> securing the mysql installation 
+> upgrade-related security issues 
+> optimizing queries 
+> optimizing database 
+> optimizing the server 
+> interpreting diagnostic messages 
+> optimizing the environment 
+> scaling mysql 
+

@@ -1,0 +1,93 @@
+# topics - 
+1. home and introduction 
+2. where to use and output 
+3. syntax and statement 
+4. comment
+5. variable 
+6. let and const
+
+---------------------------------------------------------------------------
+W3Schools Reference 
+---------------------------------------------------------------------------
+01. javascript tutorial 
+02. why javascript 
+03. commonly asked question 
+04. what can javascript do 
+
+05. the (script) tag 
+06. javascript function and events 
+07. javascript in (head or body) 
+08. external javascript 
+09. external javascript advantage 
+10. external references 
+11. javascript display possibilities 
+
+12. javascript statement 
+13. javascript programs 
+14. semicolons 
+15. white space 
+16. line length and line breaks 
+17. code blocks 
+18. keywords 
+
+19. syntax 
+20. values 
+21. literals 
+22. variables 
+23. operators 
+24. expressions 
+25. keywords 
+26. identifiers / names 
+27. case sensitive 
+28. camel case 
+29. character set 
+30. comments
+31. single line comments 
+32. multi-line comments 
+33. preventing execution 
+
+34. javascript variable and what ar variable 
+35. where to use javascript (var) and (const) 
+36. javascript identifier 
+37. the assignment operation and javascript data type
+38. declaring javascript variable and re-declaring variable 
+39. one statement many variable and value = undefined
+40. javascript arithmetic 
+41. javascript dollar-sign, underscore 
+
+42. javascript (let) and cannot be re-declared 
+43. block scope and re-declaring variables
+44. re-declaring and (let) hosting 
+45. javascript (const) and cannot be re-assign 
+46. must be assigned 
+47. where to use (const) 
+48. constant object and array  
+
+---------------------------------------------------------------------------
+MDN References
+---------------------------------------------------------------------------
+1. javascript - reference 
+- tutorial 
+    - for complete beginner
+    - javascript guide 
+    - intermediate 
+    - advanced 
+- reference 
+- tools and resource 
+
+2. about javascript 
+    - what is javascript 
+    - what javascript implementations are available 
+    - java script resources 
+
+3. javascript - dynamic client-side scripting    
+- pre-requisites 
+- modules 
+- solving common javascript problems 
+- see also 
+
+4. javascript basics 
+- what is javascript 
+- a hello world example 
+- language basics crash course 
+- supercharging  our example web sites 
