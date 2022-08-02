@@ -1,0 +1,20 @@
+#home {
+    background-color: blue;
+}
+
+#register {
+    background-color: tomato ;
+}
+
+#login {
+    background-color: cadetblue;
+}
+
+#navbar {
+    background-color: crimson;
+}
+
+div {
+    width: 15%;
+    padding: 10px;
+}

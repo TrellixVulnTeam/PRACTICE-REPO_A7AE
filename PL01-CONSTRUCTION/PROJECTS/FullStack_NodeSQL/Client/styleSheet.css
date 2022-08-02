@@ -1,0 +1,43 @@
+main {
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: 100;
+    background-color: blanchedalmond;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+th {
+    background-color: antiquewhite; 
+}
+
+#col {
+    text-align: left;
+}
+
+#tableInput {
+    width: 65%;
+}
+
+#add-input, #search-input, #update-input {
+    width: 95%;
+    padding: 2px;
+}
+
+#add-btn, #search-btn, #update-btn {
+    width: 95%;
+}

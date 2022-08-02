@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css" />
+    <title>FullStack Node-SQL App</title>
+</head>
+<bod>
+    <main>
+        <table id="tableInput">
+            <tr id="add-row">
+                <td>Name</td>
+                <td><input type="text" id="add-input"></td>
+                <td><button id="add-btn">Add New</button></td>
+            </tr>
+            <tr>
+                <td>Search</td>
+                <td><input type="text" id="search-input"></td>
+                <td><button id="search-btn">Search</button></td>
+            </tr>
+            <tr hidden id="update-row">
+                <td>Name</td>
+                <td><input type="text" id="update-input"></td>
+                <td><button id="update-btn">Update</button></td>
+            </tr>
+        </table>
+        
+        <table id="tableData">
+            <thead>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
