@@ -1,17 +1,7 @@
 ---------------------------------------------------------------------------
-Starting with JavaScript
+Starting with JavaScript (W3SCHOOLS)
 ---------------------------------------------------------------------------
--> javascript is one of the 3 languages all web developers must learn 
-    - HTML to define the content of web pages 
-    - CSS to specify the layout of web pages 
-    - JavaScript to program the behavior of web pages 
--> versions of javascript 
-    - the original javascript ES1, ES2, ES3 (1997-1999)
-    - the first main revision ES5 (2009) 
-    - the second revision ES6 (2015)
-    - the yearly additions (2016, 2017, 2018) 
--> there is not need to download js, it is already running in your web browser 
--> what can javascript do 
+# what can javascript do 
     - javascript can change HTML content 
     - javascript cna change HTML attribute values 
     - javascript can change HTML style (css) 
@@ -19,45 +9,96 @@ Starting with JavaScript
     - javascript can create HTML elements 
     - javascript can check HTML-Form Validity
 
--> javascript is a programming language that adds interactivity to your website 
--> this happens in a games, in the behavior of responses when buttons are pressed or 
-   with data entry on forms, with dynamic styling, with animation, etc 
+# how to use javascript  
+-> the script tag 
+-> in HTML, JavaScript code is inserted between (script and /script) tabs
+-- old JavaScript may use a (type) attribute, but the (type) attribute is not 
+-- required. JavaScript is the default scripting language in HTML 
+-- syntax: < script > javascript codes ... < /script >
+-- old syntax: < script type="text/javascript > javascript codes ... < /script >
 
-# what is javascript (MDN)
--> JS is a powerful programming language that can add interactivity to a website
--> it was intented by Brendan Eich 
--> javascript is versatile and beginner-friendly
--> with more experience, you'll be able to create game, animated 2D and 3D graphics, 
--- comprehensive (database-driven) apps, and much more 
--> javascript itself is relatively compact, yet very flexible
--> developers have written a variety of tools on top of the core js language, 
--- unlocking a vast amount of functionality with minimum effort. these include - 
-    -> browser application programming interface (APIs) built into web browsers, 
-      - providing functionality such as dynamically creating HTML and setting CSS,
-      - collecting and manipulating a video stream from a user's webcam, 
-      - or generating 3D graphics 
-      - and audio samples 
-    -> third-party (APIs) that allow developers to incorporate functionality in 
-    -- in sites from other content providers, such as twitter or facebook 
-    -> third-party frameworks and libraries that you can apply to HTML to accelerate 
-    -- the work of building sites and applications 
--> NB: the core javascript language is different from the tools listed above 
--- there are some aspects of the core language and offers an opportunity to play 
-   with a few browser API features too - 
+-> internal javascript 
+-> any number of scripts can be placed in a HTML document 
+-- scripts can be placed in the (body or head) section of an HTML page, or in both
+-- placing scripts at the bottom of the (body) element improves the display speed, 
+   because script interpretation slows down the display 
+-> internal script can be placed in two ways 
+   - using the (script) tag as above described 
+   - using the (event) attribute of an HTML element 
+   - syntax: 
+   < button onclick="myFunction()" >Click< /button >
+   < button onclick="document.write(4+6)" >Click< /button >
 
-   -> a hello world example 
-   -> language basics crash course 
-   -- variables 
-   -- data types 
-   -- comments 
-   -- operators 
-   -- conditionals 
-   -- functions 
-   -- events 
-   -> supercharging our example website 
-   -- adding an image changer 
-   -- adding a personalized welcome message 
-   -- a user name of null 
-   -> conclusion 
+-> external javascript 
+-> scripts can also be placed in external files 
+-> external script are practical when the same code is used in many different pages
+-> javascript files have hte file extension (.js) 
+-> external scripts cannot contain (script) tags
+-> to use an external script, put the name of the script file in the (src) attribute
+-- of a (script) tag 
+-> you can place an external script reference in (head or body) or in both section
+-> script will behave as if it was located exactly where the (script) tag is located
 
-# Where to use | output | statements | syntax | comment (W3Schools)
+-> link syntax: < script src="scriptOne.js" >< /script >
+-> script syntax: 
+   function myFunction() {
+      document.getElementById('demo').innerHTML = 'Paragraph Content Changed';
+   }
+-> to add several script files to one page - use several script tags 
+-> link syntax: 
+   < script src="scriptOne.js" >< /script >
+   < script src="scriptTwo.js" >< /script >
+-> external references 
+-> an external script can be referenced in 3 different ways 
+-> with a full URL (a full web address) 
+   < script src="https://www.w3schools.com/js/myScript.js >< /script >
+-> with a file path (like /js/), syntax: < script src="/js/myScript.js" >< /script >
+-> without any path, syntax: < script src="myScript.js" >< /script >
+
+-> external javascript advantages 
+-> placing scripts in external files has some advantages 
+   - it separates HTML and code 
+   - it makes HTML and JavaScript easier to read and maintain 
+   - cached javascript files can speed up page loads 
+
+-> invoking javascript (function and event) 
+-- a js function is a block of js code, that can be executed when called for 
+-- or an event occurs like clicks a button 
+
+# output systems of javascript 
+-> javascript can display data in different ways 
+   - writing into an HTML element, using (innerHTML)
+   - writing into the HTML output, using (document.write())
+   - writing into an alert box, using (window.alert())
+   - writing into the browser console, using (console.log())
+-> using (innerHTML) 
+-- changing the (innerHTML) property of an HTML element is a common way to display 
+   data in HTML 
+-- to access an HTML element, JS can use the (document.getElementById()) method
+-- the (id) attribute defines the HTML element 
+-- the (innerHTML) property defines the HTML content 
+-- syntax: document.getElementById('idName').innerHTML = 'element content';
+-> using (document.write())
+-- for testing purposes, it is convenient to use (document.write())
+-- using (document.write()) after an HTML document is loaded, will delete all 
+   existing HTML 
+-- the (document.write()) method should only be used for testing 
+-- syntax: document.write('content');
+-> using (window.alert())
+-- an (alert box) can be used to display data 
+-- here, the (window) keyword is not essential 
+-- in js, the (window) object is the (global scope object), that means that
+   variables, properties, and methods by default belong to the (window) object 
+   this also means that specifying the (window) keyword is optional 
+-- syntax: window.alert('content');
+-- syntax: alert('content');
+-> using (console.log())
+-- for debugging purposes, you can call the (console.log()) method in the browser
+   to display data 
+-- syntax: console.log('content');
+-> javascript (print)
+-- javascript does not have any print object or print methods 
+-- you cannot access output devices form javascript 
+-- only exception is that you can call the (window.print()) method in the browser
+   to print the content of the current window 
+-- syntax: < button onclick="window.print()" > print this page < /print >

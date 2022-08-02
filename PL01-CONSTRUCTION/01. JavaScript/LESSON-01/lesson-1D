@@ -1,0 +1,87 @@
+---------------------------------------------------------------------------
+Variable, LET, CONST (W3SCHOOLS)
+---------------------------------------------------------------------------
+# javascript variables 
+-> 4 ways to declare a javascript variable 
+    - using (var) 
+    - using (let)
+    - using (const)
+    - using nothing 
+-> variables are containers for storing data (storing data values) 
+-- without (var | let | const) keyword any (single letter or word) not string can be 
+   defined as a variable any value assigned to it, and is a (undeclared) variable 
+-- but without declaration keyword or assigning value any (letter or word) if is not 
+   a string will stop execution for error 
+-> when to use javascript (var) 
+-- always declare javascript variables with (var | let | const) keyword
+-- the (var) keyword is used in all javascript code from 1995 to 2015
+-- the (let and const) keywords are added to javascript in 2015
+-- NB: if you want your code to run in older browser, you must use (var) 
+-> when to use javascript (const) 
+-- if you want a general rule: always declare variables with (const) 
+-- if you think the value of the variable can change, ust (let) 
+-> javascript identifiers 
+-- all javascript variables must be identified with unique names 
+-- these unique names are called identifiers 
+-- identifiers can be short names or more descriptive names 
+-- the general rules for constructing names for variables (unique identifiers) are - 
+    - names can contain (letters | digits | underscores | dollar signs) 
+    - names must begin with a letter 
+    - names can also begin with ($ and _)
+    - names are case-sensitive 
+    - reserved words (keywords) cannot be used as names 
+-> the assignment operator 
+-- the equal sign (=) is an assignment operator, not an equal-to operator
+-- the equal-to operator is written like (==) in javascript 
+-> javascript data-types 
+-- javascript variables can hold numbers and text values 
+-- in programming, text values are called text string \
+-- js can handle may types of data, but for now, just think of numbers and strings 
+-- strings are written inside double or single quotes, 
+-- numbers are written without quotes 
+-- if you put a number in quotes, it will be treated as a text string 
+
+
+---------------------------------------------------------------------------
+Starting with JavaScript (MDN)
+---------------------------------------------------------------------------
+-> javascript is a programming language that adds interactivity to your website 
+-> this happens in a games, in the behavior of responses when buttons are pressed or 
+   with data entry on forms, with dynamic styling, with animation, etc 
+
+# what is javascript
+-> JS is a powerful programming language that can add interactivity to a website
+-> it was intented by Brendan Eich 
+-> javascript is versatile and beginner-friendly
+-> with more experience, you'll be able to create game, animated 2D and 3D graphics, 
+-- comprehensive (database-driven) apps, and much more 
+-> javascript itself is relatively compact, yet very flexible
+-> developers have written a variety of tools on top of the core js language, 
+-- unlocking a vast amount of functionality with minimum effort. these include - 
+    -> browser application programming interface (APIs) built into web browsers, 
+      - providing functionality such as dynamically creating HTML and setting CSS,
+      - collecting and manipulating a video stream from a user's webcam, 
+      - or generating 3D graphics 
+      - and audio samples 
+    -> third-party (APIs) that allow developers to incorporate functionality in 
+    -- in sites from other content providers, such as twitter or facebook 
+    -> third-party frameworks and libraries that you can apply to HTML to accelerate 
+    -- the work of building sites and applications 
+-> NB: the core javascript language is different from the tools listed above 
+-- there are some aspects of the core language and offers an opportunity to play 
+   with a few browser API features too - 
+
+   -> a hello world example 
+   -> language basics crash course 
+   -- variables 
+   -- data types 
+   -- comments 
+   -- operators 
+   -- conditionals 
+   -- functions 
+   -- events 
+   -> supercharging our example website 
+   -- adding an image changer 
+   -- adding a personalized welcome message 
+   -- a user name of null 
+   -> conclusion 
