@@ -1,0 +1,26 @@
+01. Operators 
+02. Arithmetic 
+03. Assignment 
+04. Comparisons 
+05. Bitwise 
+
+06. Data-types 
+07. Boolean 
+08. Typeof operator 
+09. Type conversion 
+
+10. RegExp
+
+---------------------------------------------------------------------------
+JavaScript Operators 
+---------------------------------------------------------------------------
+-> operators are used to assigning value to variable, comparing value to 
+   variable or lateral, compute to variable or literal and so on 
+-> in javascript there are five 5 types of operators - 
+    - arithmetic 
+    - assignment 
+    - comparison 
+    - logical 
+    - bitwise 
+
+-> 

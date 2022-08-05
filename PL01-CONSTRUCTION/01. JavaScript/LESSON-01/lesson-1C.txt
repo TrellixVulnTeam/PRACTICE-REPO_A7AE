@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------
-Starting with JavaScript (W3SCHOOLS)
+What Can JavaScript Do 
 ---------------------------------------------------------------------------
-# what can javascript do 
+-> javascript is basically web based client side programming language  
     - javascript can change HTML content 
     - javascript cna change HTML attribute values 
     - javascript can change HTML style (css) 
@@ -9,96 +9,110 @@ Starting with JavaScript (W3SCHOOLS)
     - javascript can create HTML elements 
     - javascript can check HTML-Form Validity
 
-# how to use javascript  
--> the script tag 
--> in HTML, JavaScript code is inserted between (script and /script) tabs
--- old JavaScript may use a (type) attribute, but the (type) attribute is not 
--- required. JavaScript is the default scripting language in HTML 
--- syntax: < script > javascript codes ... < /script >
--- old syntax: < script type="text/javascript > javascript codes ... < /script >
+---------------------------------------------------------------------------
+How to Use JavaScript  
+---------------------------------------------------------------------------
+-> internal javascript
+-- any number of scripts can be placed in a HTML document 
+-- internal script can be placed in two ways 
+   - using the (script) tag 
+   - using the (event) attribute of an HTML element 
 
--> internal javascript 
--> any number of scripts can be placed in a HTML document 
+-- in HTML, JavaScript code is inserted between (script and /script) tabs
+-- old JavaScript may use a (type) attribute, but the (type) attribute is not 
+   required. now JavaScript is the default scripting language in HTML 
 -- scripts can be placed in the (body or head) section of an HTML page, or in both
 -- placing scripts at the bottom of the (body) element improves the display speed, 
    because script interpretation slows down the display 
--> internal script can be placed in two ways 
-   - using the (script) tag as above described 
-   - using the (event) attribute of an HTML element 
-   - syntax: 
+   - script tag syntax: 
+   < script > javascript codes ... < /script >
+   - script tag old syntax: 
+   < script type="text/javascript > javascript codes ... < /script >
+
+-- though, the (event) attribute is used to call any script but we can do some 
+   short script also
+   - event syntax: 
    < button onclick="myFunction()" >Click< /button >
    < button onclick="document.write(4+6)" >Click< /button >
 
 -> external javascript 
--> scripts can also be placed in external files 
--> external script are practical when the same code is used in many different pages
--> javascript files have hte file extension (.js) 
--> external scripts cannot contain (script) tags
--> to use an external script, put the name of the script file in the (src) attribute
--- of a (script) tag 
--> you can place an external script reference in (head or body) or in both section
--> script will behave as if it was located exactly where the (script) tag is located
-
--> link syntax: < script src="scriptOne.js" >< /script >
--> script syntax: 
+-- scripts can also be placed in external files 
+-- external script are practical when the same code is used in many different pages
+-- external scripts cannot contain (script) tags
+-- external script files have the file extension (.js) 
+-- to use an external script, put the name of the script file in the (src) attribute
+   of a (script) tag 
+-- external script reference can place in (head or body or in both section)
+-- script will behave as if it was located exactly where the (script) tag is located
+   - link syntax: < script src="scriptOne.js" >< /script >
+   - script syntax: 
    function myFunction() {
       document.getElementById('demo').innerHTML = 'Paragraph Content Changed';
    }
--> to add several script files to one page - use several script tags 
--> link syntax: 
+   
+-- to add several script files to one page - use several script tags 
+   - link syntax: 
    < script src="scriptOne.js" >< /script >
    < script src="scriptTwo.js" >< /script >
--> external references 
--> an external script can be referenced in 3 different ways 
--> with a full URL (a full web address) 
-   < script src="https://www.w3schools.com/js/myScript.js >< /script >
--> with a file path (like /js/), syntax: < script src="/js/myScript.js" >< /script >
--> without any path, syntax: < script src="myScript.js" >< /script >
 
--> external javascript advantages 
--> placing scripts in external files has some advantages 
+-- an external script can be referenced in 3 different ways 
+   - with a full URL (a full web address) 
+   - syntax: < script src="https://www.w3schools.com/js/myScript.js >< /script >
+   - with a file path (like /js/)
+   - syntax: < script src="/js/myScript.js" >< /script >
+   - without any path
+   - syntax: < script src="myScript.js" >< /script >
+
+-- placing scripts in external files has some advantages 
    - it separates HTML and code 
    - it makes HTML and JavaScript easier to read and maintain 
    - cached javascript files can speed up page loads 
 
 -> invoking javascript (function and event) 
 -- a js function is a block of js code, that can be executed when called for 
--- or an event occurs like clicks a button 
+   or an event occurs like clicks a button 
 
-# output systems of javascript 
+---------------------------------------------------------------------------
+Output of JavaScript 
+---------------------------------------------------------------------------
 -> javascript can display data in different ways 
    - writing into an HTML element, using (innerHTML)
    - writing into the HTML output, using (document.write())
    - writing into an alert box, using (window.alert())
    - writing into the browser console, using (console.log())
+
 -> using (innerHTML) 
 -- changing the (innerHTML) property of an HTML element is a common way to display 
    data in HTML 
 -- to access an HTML element, JS can use the (document.getElementById()) method
 -- the (id) attribute defines the HTML element 
 -- the (innerHTML) property defines the HTML content 
--- syntax: document.getElementById('idName').innerHTML = 'element content';
+   - syntax: document.getElementById('idName').innerHTML = 'element content';
+
 -> using (document.write())
 -- for testing purposes, it is convenient to use (document.write())
 -- using (document.write()) after an HTML document is loaded, will delete all 
    existing HTML 
 -- the (document.write()) method should only be used for testing 
--- syntax: document.write('content');
+   - syntax: document.write('content');
+
 -> using (window.alert())
 -- an (alert box) can be used to display data 
 -- here, the (window) keyword is not essential 
 -- in js, the (window) object is the (global scope object), that means that
    variables, properties, and methods by default belong to the (window) object 
    this also means that specifying the (window) keyword is optional 
--- syntax: window.alert('content');
--- syntax: alert('content');
+   - syntax: window.alert('content');
+   - syntax: alert('content');
+
 -> using (console.log())
 -- for debugging purposes, you can call the (console.log()) method in the browser
    to display data 
--- syntax: console.log('content');
+   - syntax: console.log('content');
+
 -> javascript (print)
 -- javascript does not have any print object or print methods 
 -- you cannot access output devices form javascript 
 -- only exception is that you can call the (window.print()) method in the browser
    to print the content of the current window 
--- syntax: < button onclick="window.print()" > print this page < /print >
+   - syntax: < button onclick="window.print()" > print this page < /print >
