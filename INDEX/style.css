@@ -1,0 +1,41 @@
+pre {
+    width: 90%;
+    height: auto;
+    margin: 26px auto;
+    padding: 28px;
+    background-color: #EEE;
+    border: solid 1px red;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+span {
+    margin: 5px;
+    padding: 5px 20px;
+    background-color: #DDD;
+    border: groove 1px #FFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span:hover {
+    background-color: #AAA;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color:crimson;
+}

@@ -1,80 +1,81 @@
+<a href="#" data-id="PL1.1">
 --------------------------------------------------------------------------------
-Professional Level-01 (Software Construction) : Duration 1 Year 
+Professional Level-01 (Software Construction) : Duration 1 Year
 --------------------------------------------------------------------------------
 01. Web Programming
-02. Web Framework 
-03. Database Design, Development and Administration 
-04. Data Warehousing and Data Mining 
-05. Web And UI Design 
-06. Graphics Design and Design Tools 
-
+02. Web Framework
+03. Database Design, Development and Administration
+04. Data Warehousing and Data Mining
+05. Web And UI Design
+06. Graphics Design and Design Tools
+</a><a href="#" data-id="PL2.1">
 --------------------------------------------------------------------------------
-Professional Level-02 (Software Architecture) : Duration 1 Year 
+Professional Level-02 (Software Architecture) : Duration 1 Year
 --------------------------------------------------------------------------------
-01. Web Technology and Architecture 
-02. Client-Server Architecture and Middleware 
-03. Cloud Architecture and Development 
-04. Software Engineering 
-05. Software Architecture 
-06. System Analysis and Design 
-07. Interation Architecture and UX Design 
-
+01. Web Technology and Architecture
+02. Client-Server Architecture and Middleware
+03. Cloud Architecture and Development
+04. Software Engineering
+05. Software Architecture
+06. System Analysis and Design
+07. Interaction Architecture and UX Design
+</a><a href="#" data-id="PL3.1">
 --------------------------------------------------------------------------------
-Professional Level-03 (Software Quality Assurance) : Duration 1 Year 
+Professional Level-03 (Software Quality Assurance) : Duration 1 Year
 --------------------------------------------------------------------------------
-01. Software Project Managemetn 
-02. Software Requirements 
-03. Sottware Metrics
-04. Software Testing and Quality Assurance 
-05. Software Documentation 
-06. DevOps Engineering 
-07. DevOps Tools 
-
+01. Software Project Management
+02. Software Requirements
+03. Software Metrics
+04. Software Testing and Quality Assurance
+05. Software Documentation
+06. DevOps Engineering
+07. DevOps Tools
+</a><a href="#" data-id="PL4.1">
 --------------------------------------------------------------------------------
-Profesional Level-04 (Logic and Service Design) : Duration 1 Year 
+Professional Level-04 (Logic and Service Design) : Duration 1 Year
 --------------------------------------------------------------------------------
-01. Data Structure and Algorithms 
-02. Parallel Computing and Distributed System 
-03. Data Communiation and Networking 
-04. Numerical Method and Theory of Computation 
-05. Cryptographic Architecture and Designing Secure Software
-06. Software Pattern and Service Design 
-07. C++ Package Management, Build System and Web Assembly 
-##  Additional Software Development 
-
+01. Data Structure and Algorithms
+02. Parallel Computing and Distributed System
+03. Data Communication and Networking
+04. Numerical Method and Theory of Computation
+05. Cryptographic Architecture and Secure Software
+06. Software Pattern and Service Design
+07. C++ Package, Build System and Web Assembly
+##  Additional Software Development
+</a><a href="#" data-id="PL5.1">
 --------------------------------------------------------------------------------
-Professional Level-05 (Intelligent System) : Duration 1 Year 
+Professional Level-05 (Intelligent System) : Duration 1 Year
 --------------------------------------------------------------------------------
-01. Artificial Intelligence 
-02. Machine Learnign 
-03. Neural Networks and Fuzzy System 
+01. Artificial Intelligence
+02. Machine Learning
+03. Neural Networks and Fuzzy System
 04. Pattern Recognition and Natural Language Processing
-05. Data Science 
-06. Probability and Statistics 
+05. Data Science
+06. Probability and Statistics
 07. Engineering Mathematics
-
+</a><a href="#" data-id="PL6.1">
 --------------------------------------------------------------------------------
 Professional Level-06 (System Operation) : Duration 1 Year
 --------------------------------------------------------------------------------
-01. Digital System and Logic Design 
-02. Computer Architecture and Assembly Language 
-03. Operating System and System Programming 
-04. Compiler Design 
-05. Communication and Computer Network 
+01. Digital System and Logic Design
+02. Computer Architecture and Assembly Language
+03. Operating System and System Programming
+04. Compiler Design
+05. Communication and Computer Network
 
 06. Microprocessor and Interfacing 
 07. Micro-controller and Embedded System Programming 
 08. Computer Graphics and GPU Interfacing 
 09. Digital Image Processing 
 10. Algorithm Engineering 
-
+</a>
 --------------------------------------------------------------------------------
 PRACTICE RULES
 --------------------------------------------------------------------------------
 ## Practice (According to Subject Duration)
 -> First Review: Making Notes (Duration: First 1/3 Time) 
    - First List all the Topics of the Best One Preferred Reference 
-     Then Re-Arrange the List According to Relevant Topics
+      Then Re-Arrange the List According to Relevant Topics
    - Make The Summarized Notes from the Best References You Choose of this Subject
    - NB: Do Some Practice if Required to Understand Any Topics  
 
@@ -95,7 +96,7 @@ PRACTICE RULES
 
 ## Subject Duration 
 -> Each Subject Duration (Generally 2 Months or 60 Days)
--> Subject Content Per Day (Generally 1500 Pages/60 Days = 25 Pages)
+-> Subject Content Per Day (Generally 1200 Pages/40 Days = 30 Pages)
    - First Review within (First 20 Days)
    - Second Review Within Next (Next 20 Days)
    - Final Review within Last (Last 20 Days)
@@ -104,9 +105,9 @@ PRACTICE RULES
 -> NB: If Need More Time to Complete the Course then Marge with (Review Hours)
 
 ## Practice Time
--- Day First 3 Hours - Review Last Day
--- Day Next 3 Hours  - Notes and Practice  
--- Evening 3 Hours   - Notes and Practice  
+-- Day First 3 Hours - Review Last Day 
+-- Day Next 3 Hours  - Notes and Practice (15 Pages) 
+-- Evening 3 Hours   - Notes and Practice (15 Pages)
 
 ## Practice Week
 -- First 5 Days/Week - New Lessons 
@@ -118,3 +119,4 @@ PRACTICE RULES
 --  Understanding Client and Byers Communication 
 --  Understanding Freelancing Projects 
 --  Developing Developer Community 
+

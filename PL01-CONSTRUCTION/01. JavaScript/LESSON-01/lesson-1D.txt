@@ -1,190 +1,120 @@
 ---------------------------------------------------------------------------
-JavaScript Variables 
+What Can JavaScript Do 
 ---------------------------------------------------------------------------
--> 4 ways to declare a javascript variable 
-    - using (var) 
-    - using (let)
-    - using (const)
-    - using nothing 
-
--> variables are containers for storing data (storing data values) 
-
--> when to use javascript (var) 
--- always declare javascript variables with (var | let | const) keyword
--- the (var) keyword is used in all javascript code from 1995 to 2015
--- the (let and const) keywords are added to javascript in 2015
--- NB: if you want your code to run in older browser, you must use (var) 
-
--> when to use javascript (const) 
--- if you want a general rule: always declare variables with (const) 
--- if you think the value of the variable can change, ust (let) 
-
--> javascript identifiers 
--- all javascript variables must be identified with unique names 
--- these unique names are called identifiers 
--- identifiers can be short names or more descriptive names 
--- the general rules for constructing names for variables (unique identifiers) are - 
-    - names can contain (letters | digits | underscores | dollar signs) 
-    - names must begin with a letter 
-    - names can also begin with ($ and _)
-    - names are case-sensitive 
-    - reserved words (keywords) cannot be used as names 
-
--> the assignment operator 
--- the equal sign (=) is an assignment operator, not an equal-to operator
--- the equal-to operator is written like (==) in javascript 
-
--> javascript data-types 
--- javascript variables can hold numbers and text values 
--- in programming, text values are called text string 
--- js can handle may types of data, but for now, just think of numbers and strings 
--- strings are written inside double or single quotes, 
--- numbers are written without quotes 
--- if you put a number in quotes, it will be treated as a text string 
-
--> declaring a javascript variable 
--- creating a variable in javascript is called declaring a variable 
--- you declare a javascript variable with the (var and let) keyword 
--- after the declaration, the variable has no value, technically it is (undefined)
-
--> value = undefined 
--- in computer programs, variables are often declared without a value 
--- the value can be something that has to be calculated, or something that will be 
-   provided later, like user input 
--- a variable declared without a value will have the value (undefined) 
-
--> assigning value to variable 
--- to assign a value to the variable, use the equal (=) sign 
--- you can also assign a value to the variable when you declare it 
--- it's a good practice to declare all variables at the beginning of a script 
-
--> one statement, many variable 
--- you can declare many variables in one statement 
--- start the statement with (var | let) keyword and separate the variables by comma
--- you can also assign value to all or none or specific variable 
--- this statement or declaration can span multiple lines 
-
--> re-declaring variable 
--- if you re-declare a javascript variable declared with (var), it will not lose
-   its value 
--- you cannot re-declare a variable declared with (let | const) 
-
--> javascript dollar sign ($)
--- since javascript treats a dollar sign as a letter, identifiers containing ($)
-   are valid variable names 
--- using the dollar sign is not very common in javascript, but professional 
-   programmers often use it as an alias for the main function in a JS library 
--- in the JS library jQuery, for instance, the main function ($) is used to select 
-   HTML elements. 
--- in jQuery $('p'); means, select all (p) elements 
-
--> javascript underscore (_)
--- since javascript treats underscore as a letter, identifiers containing _ are 
-   valid variable names 
--- using the underscore is not very common in javascript, but a convention among 
-   professional programmers is to use it as an alias for, private (hidden) variable 
+-> javascript is basically web based client side programming language  
+    - javascript can change HTML content 
+    - javascript cna change HTML attribute values 
+    - javascript can change HTML style (css) 
+    - javascript can hide and show HTML elements 
+    - javascript can create HTML elements 
+    - javascript can check HTML-Form Validity
 
 ---------------------------------------------------------------------------
-JavaScript (let) Keyword 
+How to Use JavaScript  
 ---------------------------------------------------------------------------
--> the (let) keyword was introduced in ES6 (2015) 
--- variables defined with (let) cannot be re-declared 
--- variables defined with (let) must be declared before use 
--- variables defined with (let) have block scope 
+-> internal javascript
+-- any number of scripts can be placed in a HTML document 
+-- internal script can be placed in two ways 
+   - using the (script) tag 
+   - using the (event) attribute of an HTML element 
 
--> cannot be re-declared 
--- variable defined with let cannot be re-declared 
--- you cannot accidentally re-declare a variable   
--- but (var) can re-declare any time 
+-- in HTML, JavaScript code is inserted between (script and /script) tabs
+-- old JavaScript may use a (type) attribute, but the (type) attribute is not 
+   required. now JavaScript is the default scripting language in HTML 
+-- scripts can be placed in the (body or head) section of an HTML page, or in both
+-- placing scripts at the bottom of the (body) element improves the display speed, 
+   because script interpretation slows down the display 
+   - script tag syntax: 
+   < script > javascript codes ... < /script >
+   - script tag old syntax: 
+   < script type="text/javascript > javascript codes ... < /script >
 
--> block scope 
--- before ES5 (2015), javascript had only (global Scope) and (function Scope) 
--- ES6 introduced two important new javascript keywords (let and const) 
--- these two keywords provide block scope in javascript 
--- variables declared inside a { } block connot be accessed from outside the block
--- but variables declared with the (var) keyword can NOT have block scope 
--- variables declared inside a { } block can be accessed from outside the block 
+-- though, the (event) attribute is used to call any script but we can do some 
+   short script also
+   - event syntax: 
+   < button onclick="myFunction()" >Click< /button >
+   < button onclick="document.write(4+6)" >Click< /button >
 
--> re-declaring variables 
--- re-declaring a variable using the (var) keyword can impose problems 
--- re-declaring a variable inside a block will also redeclare the variable outside 
-   the block 
--- re-declaring a variable using the (let) keyword can solve this problem 
--- re-declaring a variable inside a block will not redeclare the variable outside 
-   the block 
+-> external javascript 
+-- scripts can also be placed in external files 
+-- external script are practical when the same code is used in many different pages
+-- external scripts cannot contain (script) tags
+-- external script files have the file extension (.js) 
+-- to use an external script, put the name of the script file in the (src) attribute
+   of a (script) tag 
+-- external script reference can place in (head or body or in both section)
+-- script will behave as if it was located exactly where the (script) tag is located
+   - link syntax: < script src="scriptOne.js" >< /script >
+   - script syntax: 
+   function myFunction() {
+      document.getElementById('demo').innerHTML = 'Paragraph Content Changed';
+   }
+   
+-- to add several script files to one page - use several script tags 
+   - link syntax: 
+   < script src="scriptOne.js" >< /script >
+   < script src="scriptTwo.js" >< /script >
 
--> re-declaring 
--- re-declaring a javascript variable with (var) is allowed anywhere in a program 
--- with (let), re-declaring a variable in the same block is not allowed 
--- re-declaring a variable with (let), in another block, is allowed 
+-- an external script can be referenced in 3 different ways 
+   - with a full URL (a full web address) 
+   - syntax: < script src="https://www.w3schools.com/js/myScript.js >< /script >
+   - with a file path (like /js/)
+   - syntax: < script src="/js/myScript.js" >< /script >
+   - without any path
+   - syntax: < script src="myScript.js" >< /script >
 
--> let hoisting 
--- variable defined with (var) are hoisted to the top and can be initialized at 
-   any time 
--- meaning you cna use tha variable before it is declared 
--- variables defined with (let) are also hoisted to the top of the block, but 
-   not initialized 
--- meaning using a (let) variable before it is declared will result in a 
-   referenceError 
+-- placing scripts in external files has some advantages 
+   - it separates HTML and code 
+   - it makes HTML and JavaScript easier to read and maintain 
+   - cached javascript files can speed up page loads 
+
+-> invoking javascript (function and event) 
+-- a js function is a block of js code, that can be executed when called for 
+   or an event occurs like clicks a button 
 
 ---------------------------------------------------------------------------
-JavaScript (const) Keyword
+Output of JavaScript 
 ---------------------------------------------------------------------------
--> the (const) keyword was introduced in ES6 (2015) 
--> variables defined with (const) cannot be re-declared 
--> variables defined with (const) cannot be re-assigned 
--> variables defined with (const) have block scope 
+-> javascript can display data in different ways 
+   - writing into an HTML element, using (innerHTML)
+   - writing into the HTML output, using (document.write())
+   - writing into an alert box, using (window.alert())
+   - writing into the browser console, using (console.log())
 
--> cannot be re-assigned 
--- a (const) variable cannot be re-assigned 
+-> using (innerHTML) 
+-- changing the (innerHTML) property of an HTML element is a common way to display 
+   data in HTML 
+-- to access an HTML element, JS can use the (document.getElementById()) method
+-- the (id) attribute defines the HTML element 
+-- the (innerHTML) property defines the HTML content 
+   - syntax: document.getElementById('idName').innerHTML = 'element content';
 
--> must be assigned 
--- javascript (const) variables must be assigned a value whe they are declared 
+-> using (document.write())
+-- for testing purposes, it is convenient to use (document.write())
+-- using (document.write()) after an HTML document is loaded, will delete all 
+   existing HTML 
+-- the (document.write()) method should only be used for testing 
+   - syntax: document.write('content');
 
--> when to use javascript const 
--- as a general rule, always declare a variable with (const) unless you know 
-   that the value will change 
--- use (const) when you declare - 
-   - a new array 
-   - a new object 
-   - a new function 
-   - a new RegExp 
+-> using (window.alert())
+-- an (alert box) can be used to display data 
+-- here, the (window) keyword is not essential 
+-- in js, the (window) object is the (global scope object), that means that
+   variables, properties, and methods by default belong to the (window) object 
+   this also means that specifying the (window) keyword is optional 
+   - syntax: window.alert('content');
+   - syntax: alert('content');
 
--> constant object and arrays 
--- the keyword (const) is a little misleading 
--- it does not define a constant value. it defines a constant reference to a value
--- because of this you can NOT
-   - reassign a const value 
-   - reassign a const array 
-   - reassign a const object 
--- but you CAN 
-   - change the elements of const array 
-   - change the properties of const object 
+-> using (console.log())
+-- for debugging purposes, you can call the (console.log()) method in the browser
+   to display data 
+   - syntax: console.log('content');
 
--> constant arrays 
--- you can change the elements of a constant array 
--- but you can NOT reassign the array 
+-> javascript (print)
+-- javascript does not have any print object or print methods 
+-- you cannot access output devices form javascript 
+-- only exception is that you can call the (window.print()) method in the browser
+   to print the content of the current window 
+   - syntax: < button onclick="window.print()" > print this page < /print >
 
--> constant objects 
--- you can change the properties of a constant object 
--- but you can not reassign the object 
-
--> block scope 
--- declaring a variable with (const) is similar to (let) when it comes to 
-   (block scope)
-
--> re-declaring 
--- re-declaring a javascript (var) variable is allowed anywhere in a program 
--- re-declaring an existing (var | let) variable to (const), in the same scope, 
-   is not allowed 
--- reassigning an existing (const) variable, in the same scope, is not allowed 
--- re-declaring a variable with (const), in another scope, or in another block 
-   is allowed 
-
--> const hoisting 
--- variables defined with (var) are hoisted to the top and can be initialized at 
-   any time 
--- meaning you can use the variable before it is declared 
--- variables defined with (const) are also hoisted to the top, but not initialized 
--- meaning using a (const) variable before it is declared will result in a 
-   referenceError
+<div><span data-id="S1.01.1C">PREVIOUS</span><span data-id="S1.01.1E">NEXT</span><span data-id="PL1.1">HOME</span></div>
