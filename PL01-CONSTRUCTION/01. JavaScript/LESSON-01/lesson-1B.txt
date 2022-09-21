@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------
 Programming Paradigms 
 ---------------------------------------------------------------------------
--> programming paradigms are a way to classify programming language based on features
+01 programming paradigms are a way to classify programming language based on features
 -- languages can be classified into multiple paradigms 
 -- some paradigms are concerned mainly with implications for the execution model of 
    the language, such as allowing side effects, or whether the sequence of operations
@@ -10,7 +10,7 @@ Programming Paradigms
 -- such as grouping a code into units along with the state that is modified by code 
 -- yet others are concerned mainly with the style of syntax and grammar 
 
--> common programming paradigms include 
+02 common programming paradigms include 
    - imperative: in which, programmer instructs the machine, how to change its state
       - procedural: which groups instructions into procedures 
       - oop: which groups instructions with the part of the state that operate on 
@@ -25,7 +25,7 @@ Programming Paradigms
       - reactive: in which the desired result is declared with dta streams and the 
         propagation of change 
 
--> just as software engineering (as a process) is defined by differing methodologies,
+03 just as software engineering (as a process) is defined by differing methodologies,
    so the programming languages (as models of computation) are defined by differing 
    paradigms 
 -- some languages are designed to support one paradigm, like Smalltalk support oop, 
@@ -40,7 +40,7 @@ Programming Paradigms
 -- when programming computers or systems with many processors, in process-oriented 
    programming, programs are treated as sets of concurrent processes 
 
--> different approaches to programming have developed over time
+04 different approaches to programming have developed over time
 -- Machine code: the lowest-level programming paradigms, which directly represents 
    the instructions (the contents of program memory) as a sequence of numbers, and 
    assembly language where the machine instructions are represented by mnemonics 
@@ -67,7 +67,7 @@ Programming Paradigms
    High Level Assembly (HLA) is an example of this that fully supports advanced 
    data types and object-oriented assembly language programming - despite its origins
 
--> Further Paradigms: life-rate programming as a form of (imperative programming), 
+05 Further Paradigms: life-rate programming as a form of (imperative programming), 
    structures programs as a human-centered web, as in a hypertext essay: 
    documentation is integral to the program, and the program is structured following 
    the logic of prose exposition, rather than compiler convenience 
@@ -89,36 +89,16 @@ Programming Paradigms
    natural-language processing) and computer games languages that support this 
    paradigm include (Lisp and Prolog)
 
--> differentiable programming structures programs so that they can be differentiated
+06 differentiable programming structures programs so that they can be differentiated
    throughout, usually via (automatic differentiation) 
--> most programming languages support more than one programming paradigm to allow 
+07 most programming languages support more than one programming paradigm to allow 
    programmers to use the most suitable programming style and associated language 
    constructs for a given job 
-   
----------------------------------------------------------------------------
-Prototype-Based Programming
----------------------------------------------------------------------------
- -> prototype-based programming is a style of (object-oriented) programming 
-   in which (classes) are not explicitly defined, 
-   but rather derived by adding properties and methods to an instance 
-   of another class or less frequently, adding them to an empty object 
--- in simple words, this type of style allows the creating of an object 
-   without first defining its class
-
----------------------------------------------------------------------------
-First-class Function 
----------------------------------------------------------------------------
--> a programming language is said to have (first-class functions) 
-   when functions in that language are treated like any other variable. 
--- in such a language, 
-    - a function can be passed as an argument to other functions,
-    - can be returned by another function 
-    - and can be assigned as a value to a variable 
 
 ---------------------------------------------------------------------------
 Thread 
 ---------------------------------------------------------------------------
--> in computer science, a (thread) of execution is the smallest sequence of
+01 in computer science, a (thread) of execution is the smallest sequence of
    programmed instructions that can be managed independently by a scheduler, 
    which is typically a part of the operating system 
 -- the implementation of threads and processes differs between operating systems
@@ -128,5 +108,23 @@ Thread
 -- in particular, the threads of a process share its executable code 
    and the values of its dynamically allocated variables 
    and no-thread-local global variables at any given time 
+   
+---------------------------------------------------------------------------
+Prototype-Based Programming
+---------------------------------------------------------------------------
+01 prototype-based programming is a style of (object-oriented) programming 
+   in which (classes) are not explicitly defined, 
+   but rather derived by adding properties and methods to an instance 
+   of another class or less frequently, adding them to an empty object 
+-- in simple words, this type of style allows the creating of an object 
+   without first defining its class
 
-<div><span data-id="S1.01.1A">PREVIOUS</span><span data-id="S1.01.1C">NEXT</span><span data-id="PL1.1">HOME</span></div>
+---------------------------------------------------------------------------
+First-class Function 
+---------------------------------------------------------------------------
+01 a programming language is said to have (first-class functions) 
+   when functions in that language are treated like any other variable. 
+-- in such a language, 
+    - a function can be passed as an argument to other functions,
+    - can be returned by another function 
+    - and can be assigned as a value to a variable 

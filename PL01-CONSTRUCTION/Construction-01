@@ -1,16 +1,16 @@
 --------------------------------------------------------------------------------
 SUBJECT: 01 - WEB PROGRAMMING (3 Months)
 --------------------------------------------------------------------------------
-<a href="#" data-id="S1.01.1A">01. W3Schools - JavaScript and TypeScript</a>
-<a href="#" data-id="S1.02">02. W3Schools - NodeJS and Basic SQL</a>
-<a href="#" data-id="S1.03">03. W3Schools - HTML, CSS, and SASS</a>
-<a href="#" data-id="S1.04">04. W3Schools - XML and JSON</a>
-<a href="#" data-id="S1.05">05. W3Schools - HTML Canvas, SVG, and Web Building</a>
-<a href="#" data-id="S1.06">06. MDN - JavaScript</a>
-<a href="#" data-id="S1.07">07. MDN - HTML and CSS</a>
-<a href="#" data-id="S1.08">08. MDN - HTTP</a>
-<a href="#" data-id="S1.09">09. MDN - Web API</a>
-<a href="#" data-id="S1.10">10. MDN - Web Technology</a> 
+01. W3Schools - JavaScript and TypeScript
+02. W3Schools - NodeJS and Basic SQL
+03. W3Schools - HTML, CSS, and SASS
+04. W3Schools - XML and JSON
+05. W3Schools - HTML Canvas, SVG, and Web Building
+06. MDN - JavaScript
+07. MDN - HTML and CSS
+08. MDN - HTTP
+09. MDN - Web API
+10. MDN - Web Technology
 
 --------------------------------------------------------------------------------
 SUBJECT: 02 - WEB FRAMEWORK (3 Months)
@@ -58,5 +58,3 @@ ADDITIONAL REFERENCES: LANGUAGE
 -> Library and Framework 
 -> Syntax 
 -> Scope and Platform 
-
-<div><span data-id="PL1.2">NEXT</span><span data-id="">HOME</span></div>

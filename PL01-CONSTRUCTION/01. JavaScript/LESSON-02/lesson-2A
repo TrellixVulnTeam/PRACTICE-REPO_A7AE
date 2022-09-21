@@ -1,26 +1,199 @@
-01. Operators 
-02. Arithmetic 
-03. Assignment 
-04. Comparisons 
-05. Bitwise 
-
-06. Data-types 
-07. Boolean 
-08. Typeof operator 
-09. Type conversion 
-
-10. RegExp
-
----------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 JavaScript Operators 
----------------------------------------------------------------------------
--> operators are used to assigning value to variable, comparing value to 
+-------------------------------------------------------------------------------
+01 operators are used to assigning value to variable, comparing value to 
    variable or lateral, compute to variable or literal and so on 
--> in javascript there are five 5 types of operators - 
+
+02 in javascript there are mainly 5 (five) types of operators - 
     - arithmetic 
     - assignment 
     - comparison 
     - logical 
     - bitwise 
 
--> 
+03 arithmetic-operators : these operators are used to perform arithmetic on numbers
+-- in JavaScript there are 8 (eight) arithmetic-operators 
+-- addition (+)
+-- subtraction (-)
+-- multiplication (*)
+-- division (/)
+-- modulus (%) - division remainder
+-- increment (++)
+-- decrement (--)
+-- exponentiation (**) - ES2016
+
+04 assignment-operators : these operators are used to assign value to variable 
+-- in JavaScript there are 7 (seven) assignment-operators 
+-- (=) - assign value to a variable (equal-to) 
+-- (+=) - add then assign 
+-- (-=) - subtract then assign
+-- (*=) - multiply then assign
+-- (/=) - divide then assign 
+-- (%=) - divide then assign the remainder 
+-- (**=) - assign the exponentiation value, ES2016
+
+05 comparison-operators : these operators are used to compare two values 
+-- in JavaScript there are 9 (nine) comparison-operators 
+-- (==) - equal-to, only value
+-- (!=) - not-equal-to, only value
+-- (>=) - greater-than equal-to, only value
+-- (<=) - less-than equal-to, only value
+-- (>) - greater-than, only value 
+-- (<) - less-than, only value 
+-- (===) - equal-to, value and type 
+-- (!==) - not-equal-to, value and type 
+-- (?:) - ternary operator 
+
+06 logical-operator : these operators are used in logical statement check
+-- in JavaScript there are 3 (three) logical-operators 
+-- (&&) - logical AND
+-- (||) - logical OR
+-- (!) - logical NOT
+
+07 bitwise-operator : these operators are used to bit-operation 
+-- in JavaScript there are 7 (seven) bitwise-operators
+-- (&) - AND
+-- (|) - OR
+-- (~) - NOT
+-- (^) - XOR
+-- (<<) - left-shift
+-- (>>) - right-shift
+-- (>>>) - unsigned right-shift
+
+-> in JavaScript, the (bit operators) works on 32 bit-numbers 
+-- any numeric operand in the operation is converted into a 32 bit-numbers 
+-- the result is converted back to a JavaScript numbers
+
+-> JavaScript use (32 bit signed) numbers
+-- (~ 5) is a (4 bit unsigned) number (bit operation using NOT operator)
+-- the (~) NOT-operator (invert) all the bits of an operation 
+
+-> in case of (4 bit) number bit (NOT) operation -> (~5) = 10
+0000 - 0 
+0001 - 1 | 0110 - 6
+0010 - 2 | 0111 - 7
+0011 - 3 | 1000 - 8
+0100 - 4 | 1001 - 9
+0101 - 5 | 1010 - 10
+
+-- automatic sig converted operation 
+1011 - 11
+1100 - 12
+1101 - 13
+1110 - 14
+1111 - 15 
+
+-- bit addition (review the bit operation)
+0001 - 1 | 1111 - 15
+0010 - 2 | 0001 - 1
+---------  ----------
+0011 - 3 | 1110 - (-14)
+
+-> but the above operation in JavaScript will return (-6)
+0000 0000 0000 0000 0000 0000 0000 0000 - 0
+0000 0000 0000 0000 0000 0000 0000 0001 - 1
+0000 0000 0000 0000 0000 0000 0000 0010 - 2
+0000 0000 0000 0000 0000 0000 0000 0011 - 3
+0000 0000 0000 0000 0000 0000 0000 0100 - 4
+0000 0000 0000 0000 0000 0000 0000 0101 - 5
+
+- (~5) operation -
+1111 1111 1111 1111 1111 1111 1111 1010 - (-6) 
+
+08 type-operator : these operators are used to check (data-type)
+-- in JavaScript there are 2 (two) type-operators
+-- (typeof) - returns the type of a variable or literal 
+-- (instanceof) - returns (true) if a variable is an instance of an object type
+
+09 string-operator : these operators are used to generally adding two string
+-- in JavaScript there are 2 (two) string-operators
+-- (+) - concatenate 
+-- (+=) - concatenate then assign
+
+-> the (+) operator is as same as arithmetic addition 
+-- in case of only two numeric data type it behaves as (arithmetic addition) 
+-- in case of only string | string and numeric types it behaves as (concatenate)
+-- the (+=) assignment operator behaves as like (+) operator    
+
+-------------------------------------------------------------------------------
+Operator Precedences
+-------------------------------------------------------------------------------
+01 operator precedences 
+-- operator precedence describes the order in which operations are performed in an 
+   in an arithmetic expression 
+-- multiplication (*) and division (/) have higher precedence than (+ | -)
+-- as in traditional mathematics, multipication is done first 
+-- as in traditional mathematics, the precedence can be changed by parentheses
+-- when using parenthese, the operations inside the parentheses are computed first 
+-- when may operations have the same precedence (like, + | -), they are computed 
+   from (left to right )
+
+02 javascript operator precedences value 
+-- pale red entries indicates ECMAScript 2016 or hihger 
+-- 18. ()         - expression groupting   - (3 + 4) 
+
+-- 17. .          - member                 - person.name 
+-- 17. []         - member                 - person['name']
+-- 17. ()         - function call          - myFunction() 
+-- 17. new        - (with arguments)       - new Person('john', 'deo')
+
+-- 16. new        - (without arguments)    - new Date()
+
+-- 15. ++         - Postfix Increment      - variable++
+-- 15. --         - Postfix decrement      - variable-- 
+-- 14. ++         - prefix increment       - ++variable 
+-- 14. --         - prefix decrement       - --variable
+
+-- 14. !          - logical NOT            - !(x==y)
+-- 14. ~          - bitwise NOT            - ~x
+-- 14. typeof     - data-type              - typeof x
+
+-- 13. **         - exponentiation         - 10**2
+
+-- 12. *          - multiplication         - 10 * 5
+-- 12. /          - division               - 10 / 5 
+-- 12. %          - remainder              - 10 / 5 
+-- 11. +          - addision               - 10 + 5 
+-- 11. -          - subtraction            - 10 - 5 
+
+-- 10. <<         - shift-left             - x << 2 
+-- 10. >>         - shift-right (signed)   - x >> 2 
+-- 10. >>>        - shift-right (unsigned) - x >>> 2
+
+-- 09. <          - less-than              - x < y 
+-- 09. <=         - less than or equal     - x <= y 
+-- 09. >          - greater-than           - x > y 
+-- 09. >=         - greater-than or equal  - x >= y 
+-- 09. in         - property in object     - 'PI' in Math 
+-- 09. instanceof - instance of object - instanceof Array
+
+-- 08. ==         - equal              - x == y 
+-- 08. ===        - strict equal       - x ===y 
+-- 08. !=         - unequal            - x != y 
+-- 08. !==        - strict unequal     - x !== y 
+
+-- 07. &          - Bitwise AND        - x & y 
+-- 06. ^          - Bitwise XOR        - x ^ y
+-- 05. |          - Bitwise OR         - x | y 
+-- 04. &&         - logical AND        - x && y 
+-- 03. ||         - logical OR         - x || y 
+-- 03. ??         - Null Coalescing    - x ?? y 
+
+-- 02. ?:         - condition          - ? 'yes' : 'no'
+-- 02. +=         - assignment         - x += y 
+-- 02. -=         - assignment         - x /= y 
+-- 02. *=         - assignment         - x *= y 
+-- 02. /=         - assignment         - x /= y 
+-- 02. %=         - assignment         - x %= y 
+-- 02. <<=        - assignment         - x <<= y 
+-- 02. >>=        - assignment         - x >>= y 
+-- 02. >>>=       - assignment         - x >>>= y 
+-- 02. &=         - assignment         - x &= y 
+-- 02. ^=         - assignment         - x ^= y 
+-- 02. |=         - assignment         - x |= y 
+-- 02. =>         - arrow              - x => y 
+-- 02. yield      - pause / resume     - yield x 
+-- 02. yield*     - delegate           - yield* x 
+-- 02. ...        - spread             - ... x 
+
+-- 01. ,          - comma              - x, y            

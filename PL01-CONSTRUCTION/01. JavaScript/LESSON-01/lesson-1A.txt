@@ -1,24 +1,24 @@
 ---------------------------------------------------------------------------
 Introduction to Javascript 
 ---------------------------------------------------------------------------
--> javascript is the world's most popular programming language 
+01 javascript is the world's most popular programming language 
 -> while it is most well-known as the scripting language for the web pages, 
    but many non-browser environments also use it, such as (node.JS, Apache-CouchDB)
 -> javascript runs on the client side of the web, which can be used to 
    design/program how the web pages behave on the occurrence of an event 
 
--> javascript is already running in your web browser like HTML and CSS
+02 javascript is already running in your web browser like HTML and CSS
 -> javascript is one of the 3 languages all web developers must learn 
     - HTML to define the content of web pages 
     - CSS to specify the layout of web pages 
     - JavaScript to program the behavior of web pages 
 
--> JS and java are completely different languages, both in concept and design 
+03 JS and java are completely different languages, both in concept and design 
 -- JS was invented by Brendan Eich in 1995, and became an ECMA standard in 1997
 -- ECMA-262 is the official name of the standard
 -- ECMAScript is the official name of the language
 
--> versions of javascript 
+04 versions of javascript 
     - the original javascript ES1, ES2, ES3 (1997-1999)
     - the first main revision ES5 (2009) 
     - the second revision ES6 (2015)
@@ -27,19 +27,19 @@ Introduction to Javascript
 ---------------------------------------------------------------------------
 JavaScript Paradigms  
 ---------------------------------------------------------------------------
--> javascript is a lightweight, interpreted, or (just-in-time) compiled 
+01 javascript is a interpreted, or (just-in-time) compiled, lightweight 
    programming language with first-class functions
 -- javascript is prototype-based, multi-paradigm, single-threaded, dynamic 
-   language, supporting (object-oriented), (imperative), and (declarative) like 
-   (functional programming) styles 
+   language, supporting (imperative) like (object-oriented), and (declarative)
+   like (functional) programming styles 
 -- javascript can function as both a (procedural) and an (object-oriented) 
 -- JS is dynamic scripting language supporting (prototype based) object construction 
 
--> the basic syntax is internationally similar to both java and C++ to reduce the 
+02 the basic syntax is internationally similar to both java and C++ to reduce the 
    number of new concepts required to learn the language 
 
--> object system of javascript 
--- object are created programmatically in javascript, by attaching methods and 
+03 object system of javascript 
+-- objects are created programmatically in javascript, by attaching methods and 
    properties, otherwise empty object at run time, as opposed to the syntactic 
    class definitions common in compiled language 
 -- once an object has been constructed it can be used as a blueprint (prototype) 
@@ -52,7 +52,7 @@ JavaScript Paradigms
 ---------------------------------------------------------------------------
 Implementations of JavaScript 
 ---------------------------------------------------------------------------
--> the mozilla project provides two javascript implementations 
+01 the mozilla project provides two javascript implementations 
 -- the first ever javascript was created by Brendan Eich at Netscape, and has since 
    been updated to conform to ECMA-262 Edition 5 and later versions 
 -- this engine, code named (SpiderMonkey), is implemented in C/C++ 
@@ -60,12 +60,12 @@ Implementations of JavaScript
    javascript implementation written in java 
 -- like (SpiderMonkey, Rhino) is ECMA-262 Edition 5 compliant 
 
--> several major runtime optimizations such as 
+02 several major runtime optimizations such as 
   - TraceMonkey - Firefox 3.5
   - jagerMonkey - Firefox 4
   - ionMonkey - were added to the (SpideerMonkey) javascript engine over time 
 
--> besides the above implementation, there are other popular javascript engines 
+03 besides the above implementation, there are other popular javascript engines 
   - google's V8 
     - which is used in the google-chrome browser and 
     - resent versions of opera browser
@@ -78,27 +78,27 @@ Implementations of JavaScript
 ---------------------------------------------------------------------------
 Browser Engine
 ---------------------------------------------------------------------------
--> a browser engine (also know as a LAYOUT ENGINE or RENDERING ENGINE) is a core 
+01 a browser engine (also know as a LAYOUT ENGINE or RENDERING ENGINE) is a core 
    software component of every major web browser 
 -- primary job of a browser engine is to transform HTML docs and other resources
    of a web page into an interactive visual representation on a user's device 
 
--> a browser engine is nto a stand-alone computer program but a critical piece of 
+02 a browser engine is nto a stand-alone computer program but a critical piece of 
    a larger program, such as a web browser, from which the term is derived 
 -- NB: the word engine is an analogy of the engine of a car 
 
--> besides browser engine two other terms are in common use regarding related 
+03 besides browser engine two other terms are in common use regarding related 
    concepts (layout engine and rendering engine) 
 -- in theory, (layout and rendering/painting) could be handled by separated engines
 -- in practice, however they are tightly coupled and rarely considered separately 
 
--> in addition to (layout and rendering), a browser engine enforces 
+04 in addition to (layout and rendering), a browser engine enforces 
   - the security policy between documents, 
   - handles navigation through hyperlinks,
   - and data submitted through forms,
   - and implements the (DOM) data structure exposed to page scripts 
 
--> executing JavaScript (JS) code is a separate matter, 
+05 executing JavaScript (JS) code is a separate matter, 
     however as every major web browser uses a (dedicated engine) for this 
 -- the JS language was originally created for use in browsers, 
     but it is now used elsewhere, too
@@ -106,7 +106,7 @@ Browser Engine
 -- in web browser, these two engines work in concert via 
     the shared DOM data structure
 
--> browser engines are used in other types of programs besides web browsers 
+06 browser engines are used in other types of programs besides web browsers 
     email clients need them to display HTML email 
 -- the electron framework, which is powered by the two engines of the
     google chrome browser, has been used to create many applications 
@@ -114,7 +114,7 @@ Browser Engine
 ---------------------------------------------------------------------------
 JavaScript Engine 
 ---------------------------------------------------------------------------
--> a javascript engine is a software component that executes javascript code 
+01 a javascript engine is a software component that executes javascript code 
 -- the first javascript engines were mere interpreters, but all relevant modern 
    engines use (just-in-time) compilation for improved performance 
 -- javascript engines are typically developed by web browser vendors, 
@@ -122,11 +122,9 @@ JavaScript Engine
 -- in a browser, the javascript engine runs in concert with 
    the rendering engine via the DOM (document object model) 
 
--> the use of javascript engines in not limited to browsers, for example, 
+02 the use of javascript engines in not limited to browsers, for example, 
    the V8 engine is a core component of the (NodeJS) and (Deno Runtime System)
 -- the ECMAScript is the standardized specification of javascript 
 -- ECMAScript engine is another name for these engines 
 -- with the advent of (WebAssembly) some engines can also execute this code 
    in the same sandbox as regular javascript code 
-
-<div><span data-id="PL1.1">PREVIOUS</span><span data-id="S1.01.1B">NEXT</span><span data-id="PL1.1">HOME</span></div>

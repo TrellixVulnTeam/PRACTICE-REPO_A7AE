@@ -18,7 +18,7 @@ How to Use JavaScript
    - using the (script) tag 
    - using the (event) attribute of an HTML element 
 
--- in HTML, JavaScript code is inserted between (script and /script) tabs
+01 in HTML, JavaScript code is inserted between (script and /script) tabs
 -- old JavaScript may use a (type) attribute, but the (type) attribute is not 
    required. now JavaScript is the default scripting language in HTML 
 -- scripts can be placed in the (body or head) section of an HTML page, or in both
@@ -29,8 +29,8 @@ How to Use JavaScript
    - script tag old syntax: 
    < script type="text/javascript > javascript codes ... < /script >
 
--- though, the (event) attribute is used to call any script but we can do some 
-   short script also
+02 though, the (event) attribute is used to call any script but we can do some 
+   short script as the value of (event) attribute also - 
    - event syntax: 
    < button onclick="myFunction()" >Click< /button >
    < button onclick="document.write(4+6)" >Click< /button >
@@ -38,6 +38,12 @@ How to Use JavaScript
 -> external javascript 
 -- scripts can also be placed in external files 
 -- external script are practical when the same code is used in many different pages
+-- placing scripts in external files has some advantages 
+   - it separates HTML and code 
+   - it makes HTML and JavaScript easier to read and maintain 
+   - cached javascript files can speed up page loads
+
+01 using external javascript
 -- external scripts cannot contain (script) tags
 -- external script files have the file extension (.js) 
 -- to use an external script, put the name of the script file in the (src) attribute
@@ -50,23 +56,18 @@ How to Use JavaScript
       document.getElementById('demo').innerHTML = 'Paragraph Content Changed';
    }
    
--- to add several script files to one page - use several script tags 
+02 to add several script files to one page - use several script tags 
    - link syntax: 
    < script src="scriptOne.js" >< /script >
    < script src="scriptTwo.js" >< /script >
 
--- an external script can be referenced in 3 different ways 
+03 an external script can be referenced in 3 different ways 
    - with a full URL (a full web address) 
    - syntax: < script src="https://www.w3schools.com/js/myScript.js >< /script >
    - with a file path (like /js/)
    - syntax: < script src="/js/myScript.js" >< /script >
    - without any path
-   - syntax: < script src="myScript.js" >< /script >
-
--- placing scripts in external files has some advantages 
-   - it separates HTML and code 
-   - it makes HTML and JavaScript easier to read and maintain 
-   - cached javascript files can speed up page loads 
+   - syntax: < script src="myScript.js" >< /script > 
 
 -> invoking javascript (function and event) 
 -- a js function is a block of js code, that can be executed when called for 
@@ -81,7 +82,7 @@ Output of JavaScript
    - writing into an alert box, using (window.alert())
    - writing into the browser console, using (console.log())
 
--> using (innerHTML) 
+01 using (innerHTML) 
 -- changing the (innerHTML) property of an HTML element is a common way to display 
    data in HTML 
 -- to access an HTML element, JS can use the (document.getElementById()) method
@@ -89,14 +90,14 @@ Output of JavaScript
 -- the (innerHTML) property defines the HTML content 
    - syntax: document.getElementById('idName').innerHTML = 'element content';
 
--> using (document.write())
+02 using (document.write())
 -- for testing purposes, it is convenient to use (document.write())
 -- using (document.write()) after an HTML document is loaded, will delete all 
    existing HTML 
 -- the (document.write()) method should only be used for testing 
    - syntax: document.write('content');
 
--> using (window.alert())
+03 using (window.alert())
 -- an (alert box) can be used to display data 
 -- here, the (window) keyword is not essential 
 -- in js, the (window) object is the (global scope object), that means that
@@ -105,16 +106,14 @@ Output of JavaScript
    - syntax: window.alert('content');
    - syntax: alert('content');
 
--> using (console.log())
+04 using (console.log())
 -- for debugging purposes, you can call the (console.log()) method in the browser
    to display data 
    - syntax: console.log('content');
 
--> javascript (print)
+05 javascript (print)
 -- javascript does not have any print object or print methods 
 -- you cannot access output devices form javascript 
 -- only exception is that you can call the (window.print()) method in the browser
    to print the content of the current window 
    - syntax: < button onclick="window.print()" > print this page < /print >
-
-<div><span data-id="S1.01.1C">PREVIOUS</span><span data-id="S1.01.1E">NEXT</span><span data-id="PL1.1">HOME</span></div>

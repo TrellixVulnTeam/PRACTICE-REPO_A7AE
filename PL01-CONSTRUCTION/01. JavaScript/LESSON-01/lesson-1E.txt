@@ -1,25 +1,49 @@
 ---------------------------------------------------------------------------
 JavaScript Variables 
 ---------------------------------------------------------------------------
--> 4 ways to declare a javascript variable 
+01 4 ways to declare a javascript variable 
     - using (var) 
     - using (let)
     - using (const)
     - using nothing 
 
--> variables are containers for storing data (storing data values) 
+02 variables are containers for storing data (storing data values) 
 
--> when to use javascript (var) 
+03 when to use javascript (var) 
 -- always declare javascript variables with (var | let | const) keyword
 -- the (var) keyword is used in all javascript code from 1995 to 2015
 -- the (let and const) keywords are added to javascript in 2015
 -- NB: if you want your code to run in older browser, you must use (var) 
 
--> when to use javascript (const) 
+04 when to use javascript (const | let) 
 -- if you want a general rule: always declare variables with (const) 
 -- if you think the value of the variable can change, ust (let) 
+-- value of (const) variable cannot be changed
 
--> javascript identifiers 
+05 declaring variable without keyword (var | let | const)
+-- you can declare a variable without declaration keyword but then must have to 
+   assign the value to that identifier, else it will creates error
+-- in this case that identifier works as like the variable defined with (var)
+
+---------------------------------------------------------------------------
+06 declaring a javascript variable 
+-- creating a variable in javascript is called declaring a variable 
+-- you declare a javascript variable with the (var and let) keyword 
+-- after the declaration, the variable has no value, technically it is (undefined)
+
+07 one statement, many variable 
+-- you can declare many variables in one statement 
+-- start the statement with (var | let) keyword and separate the variables by comma
+-- you can also assign value to all or none or specific variable 
+-- this statement or declaration can span multiple lines 
+
+08 re-declaring variable 
+-- if you re-declare a javascript variable declared with (var), it will not lose
+   its value 
+-- you cannot re-declare a variable declared with (let | const) 
+
+---------------------------------------------------------------------------
+09 javascript identifiers 
 -- all javascript variables must be identified with unique names 
 -- these unique names are called identifiers 
 -- identifiers can be short names or more descriptive names 
@@ -30,46 +54,7 @@ JavaScript Variables
     - names are case-sensitive 
     - reserved words (keywords) cannot be used as names 
 
--> the assignment operator 
--- the equal sign (=) is an assignment operator, not an equal-to operator
--- the equal-to operator is written like (==) in javascript 
-
--> javascript data-types 
--- javascript variables can hold numbers and text values 
--- in programming, text values are called text string 
--- js can handle may types of data, but for now, just think of numbers and strings 
--- strings are written inside double or single quotes, 
--- numbers are written without quotes 
--- if you put a number in quotes, it will be treated as a text string 
-
--> declaring a javascript variable 
--- creating a variable in javascript is called declaring a variable 
--- you declare a javascript variable with the (var and let) keyword 
--- after the declaration, the variable has no value, technically it is (undefined)
-
--> value = undefined 
--- in computer programs, variables are often declared without a value 
--- the value can be something that has to be calculated, or something that will be 
-   provided later, like user input 
--- a variable declared without a value will have the value (undefined) 
-
--> assigning value to variable 
--- to assign a value to the variable, use the equal (=) sign 
--- you can also assign a value to the variable when you declare it 
--- it's a good practice to declare all variables at the beginning of a script 
-
--> one statement, many variable 
--- you can declare many variables in one statement 
--- start the statement with (var | let) keyword and separate the variables by comma
--- you can also assign value to all or none or specific variable 
--- this statement or declaration can span multiple lines 
-
--> re-declaring variable 
--- if you re-declare a javascript variable declared with (var), it will not lose
-   its value 
--- you cannot re-declare a variable declared with (let | const) 
-
--> javascript dollar sign ($)
+10 javascript dollar sign ($)
 -- since javascript treats a dollar sign as a letter, identifiers containing ($)
    are valid variable names 
 -- using the dollar sign is not very common in javascript, but professional 
@@ -78,34 +63,50 @@ JavaScript Variables
    HTML elements. 
 -- in jQuery $('p'); means, select all (p) elements 
 
--> javascript underscore (_)
+11 javascript underscore (_)
 -- since javascript treats underscore as a letter, identifiers containing _ are 
    valid variable names 
 -- using the underscore is not very common in javascript, but a convention among 
    professional programmers is to use it as an alias for, private (hidden) variable 
 
 ---------------------------------------------------------------------------
+12 assigning value to variable 
+-- to assign a value to the variable, use the equal (=) sign 
+-- you can also assign a value to the variable when you declare it 
+-- it's a good practice to declare all variables at the beginning of a script
+
+13 the assignment operator 
+-- the equal sign (=) is an assignment operator, not an equal-to operator
+-- the equal-to operator is written like (==) in javascript 
+
+14 value = undefined 
+-- in computer programs, variables are often declared without a value 
+-- the value can be something that has to be calculated, or something that will be 
+   provided later, like user input 
+-- a variable declared without a value will have the value (undefined) 
+
+15 javascript data-types 
+-- javascript variables can hold numbers and text values 
+-- in programming, text values are called text string 
+-- js can handle may types of data, but for now, just think of numbers and strings 
+-- strings are written inside double or single quotes, 
+-- numbers are written without quotes 
+-- if you put a number in quotes, it will be treated as a text string 
+
+---------------------------------------------------------------------------
 JavaScript (let) Keyword 
 ---------------------------------------------------------------------------
--> the (let) keyword was introduced in ES6 (2015) 
+01 the (let) keyword was introduced in ES6 (2015) 
 -- variables defined with (let) cannot be re-declared 
 -- variables defined with (let) must be declared before use 
 -- variables defined with (let) have block scope 
 
--> cannot be re-declared 
+02 cannot be re-declared 
 -- variable defined with let cannot be re-declared 
 -- you cannot accidentally re-declare a variable   
 -- but (var) can re-declare any time 
 
--> block scope 
--- before ES5 (2015), javascript had only (global Scope) and (function Scope) 
--- ES6 introduced two important new javascript keywords (let and const) 
--- these two keywords provide block scope in javascript 
--- variables declared inside a { } block connot be accessed from outside the block
--- but variables declared with the (var) keyword can NOT have block scope 
--- variables declared inside a { } block can be accessed from outside the block 
-
--> re-declaring variables 
+03 re-declaring variables 
 -- re-declaring a variable using the (var) keyword can impose problems 
 -- re-declaring a variable inside a block will also redeclare the variable outside 
    the block 
@@ -113,12 +114,20 @@ JavaScript (let) Keyword
 -- re-declaring a variable inside a block will not redeclare the variable outside 
    the block 
 
--> re-declaring 
+04 re-declaring 
 -- re-declaring a javascript variable with (var) is allowed anywhere in a program 
 -- with (let), re-declaring a variable in the same block is not allowed 
--- re-declaring a variable with (let), in another block, is allowed 
+-- re-declaring a variable with (let), in another block, is allowed
 
--> let hoisting 
+05 block scope 
+-- before ES5 (2015), javascript had only (global Scope) and (function Scope) 
+-- ES6 introduced two important new javascript keywords (let and const) 
+-- these two keywords provide block scope in javascript 
+-- variables declared inside a { } block cannot be accessed from outside the block
+-- but variables declared with the (var) keyword can NOT have block scope 
+-- variables declared inside a { } block can be accessed from outside the block  
+
+06 let hoisting 
 -- variable defined with (var) are hoisted to the top and can be initialized at 
    any time 
 -- meaning you cna use tha variable before it is declared 
@@ -130,18 +139,18 @@ JavaScript (let) Keyword
 ---------------------------------------------------------------------------
 JavaScript (const) Keyword
 ---------------------------------------------------------------------------
--> the (const) keyword was introduced in ES6 (2015) 
+01 the (const) keyword was introduced in ES6 (2015) 
 -> variables defined with (const) cannot be re-declared 
 -> variables defined with (const) cannot be re-assigned 
 -> variables defined with (const) have block scope 
 
--> cannot be re-assigned 
--- a (const) variable cannot be re-assigned 
-
--> must be assigned 
+02 must be assigned 
 -- javascript (const) variables must be assigned a value whe they are declared 
 
--> when to use javascript const 
+03 cannot be re-assigned 
+-- a (const) variable cannot be re-assigned 
+
+04 when to use javascript const 
 -- as a general rule, always declare a variable with (const) unless you know 
    that the value will change 
 -- use (const) when you declare - 
@@ -150,7 +159,7 @@ JavaScript (const) Keyword
    - a new function 
    - a new RegExp 
 
--> constant object and arrays 
+05 constant object and arrays 
 -- the keyword (const) is a little misleading 
 -- it does not define a constant value. it defines a constant reference to a value
 -- because of this you can NOT
@@ -161,19 +170,19 @@ JavaScript (const) Keyword
    - change the elements of const array 
    - change the properties of const object 
 
--> constant arrays 
+06 constant arrays 
 -- you can change the elements of a constant array 
 -- but you can NOT reassign the array 
 
--> constant objects 
+07 constant objects 
 -- you can change the properties of a constant object 
 -- but you can not reassign the object 
 
--> block scope 
+08 block scope 
 -- declaring a variable with (const) is similar to (let) when it comes to 
    (block scope)
 
--> re-declaring 
+09 re-declaring 
 -- re-declaring a javascript (var) variable is allowed anywhere in a program 
 -- re-declaring an existing (var | let) variable to (const), in the same scope, 
    is not allowed 
@@ -181,12 +190,10 @@ JavaScript (const) Keyword
 -- re-declaring a variable with (const), in another scope, or in another block 
    is allowed 
 
--> const hoisting 
+10 const hoisting 
 -- variables defined with (var) are hoisted to the top and can be initialized at 
    any time 
 -- meaning you can use the variable before it is declared 
 -- variables defined with (const) are also hoisted to the top, but not initialized 
 -- meaning using a (const) variable before it is declared will result in a 
    referenceError
-
-<div><span data-id="S1.01.1D">PREVIOUS</span><span data-id="PL1.1">NEXT</span><span data-id="PL1.1">HOME</span></div>

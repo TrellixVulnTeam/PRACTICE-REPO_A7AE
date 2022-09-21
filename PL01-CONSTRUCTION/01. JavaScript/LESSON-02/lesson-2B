@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Arithmetic Operators
+-------------------------------------------------------------------------------
+01 javascript arithmetic operators
+-- arithmetic operators perform arithmetic on numbers (literals or variables) 
+-- a typical arithmetic operation operates on two numbers 
+    -- this two numbers can be literals > x = 4 + 2;
+    -- this two numbers can be variables > x = a + b; 
+    -- expressions > x = (100 + 40) * a; 
+
+02 there are eight arithmetic operators - 
+-- (+)  - addition, add numbers > x = 10 + 20
+-- (-)  - subtraction, subtract numbers > x = 20 - 10
+-- (*)  - multiplication, multiplies numbers > x = 10 * 5
+-- (/)  - division, divides numbers > x = 10 / 5
+-- (%)  - modulus (remainder) > x = 10 % 5
+-- (++) - increment 
+-- (--) - decrement 
+-- (**) - exponentiation (ES2016)
+
+03 operator and operands 
+-- the numbers (in an arithmetic operation) are called (operands) 
+-- the operation (to be performed between the two operands) is defined by an (operator)
+-- like > x = (100 + 11) * a; 
+    -- here (x, 100, 11, a) are operands 
+    -- and ()=, +, *) are operators 
+04 operator precedence
+
+-------------------------------------------------------------------------------
+Assignment Operators
+-------------------------------------------------------------------------------
+01 javascript assignment operators 
+02 assignment operation 
+
+-------------------------------------------------------------------------------
+Comparison Operators
+-------------------------------------------------------------------------------
+01 comparison operators 
+02 logical operators 
+03 conditional (ternary) operators 
+04 the Nullish Coalescing operator (??)
+05 comparing different types 
+
+-------------------------------------------------------------------------------
+Bitwise Operators
+-------------------------------------------------------------------------------
+01 javascript bitwise Operators
+02 javascript uses 32 bits bitwise operands 
+03 the AND operator 
+04 the OR operator 
+05 the XOR operator 
+06 the NOT operator 
+07 the (Zero Fill) bitwise LEFT-SHIFT operator (<<)
+08 the (Sign Preserving) bitwise RIGHT-SHIFT operator (>>)
+09 hte (Zero Fill) bitwise RIGHT-SHIFT operator (>>>)
+
+10 binary numbers 
+11 converting decimal to binary 
+12 converting binary to decimal 

@@ -1,17 +1,15 @@
 const element = document.querySelector('pre');
 
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('../PRO COURSES AND SCHEDULE')
-    .then(response => response.text())
-    .then(data => {
-        element.innerHTML = data
-    });
+fetch('../PRO COURSES AND SCHEDULE')
+.then(response => response.text())
+.then(data => {
+    element.innerHTML = data
 });
 
 element.addEventListener('click', function (event) {
     let FILE;
     
-    switch(event.target.dataset.id) {
+    switch(event.target.dataset.id) {        
         case 'PL1.1': FILE = '../PL01-CONSTRUCTION/Construction-01'; break;
         case 'PL1.2': FILE = '../PL01-CONSTRUCTION/Construction-02'; break;
         case 'PL1.3': FILE = '../PL01-CONSTRUCTION/Construction-03'; break;
