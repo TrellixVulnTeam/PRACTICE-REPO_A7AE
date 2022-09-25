@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style rel="stylesheet">
+        #one {
+            background-color: red;
+        }
+        #two {
+            background-color: yellow;
+            visibility: hidden;
+        }
+
+        #one:hover #two {
+            visibility: visible;
+        }
+
+        #main {
+            background-color: bisque;
+        }
+        #three {
+            background-color: blue;
+        }
+        #four {
+            background-color: coral;
+            visibility: hidden;
+        }
+
+        #three:hover+#four {
+            visibility: visible;
+            color:blue;
+        }
+
+        #three p:hover+#four {
+            visibility: visible;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        div one
+        <div id="two">div two</div>
+    </div>
+
+    <br >
+    <div id="main">
+        <div id="three">
+            div one    
+            <p>paragraph</p>    
+        </div>
+        <div id="four">
+            div two
+            <p>paragraph</p>
+        </div>
+    </div>
+</body>
+</html>
