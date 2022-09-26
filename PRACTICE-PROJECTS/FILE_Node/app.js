@@ -1,38 +1,35 @@
-const fs = require('fs');
-// const element = document.querySelector('pre');
-// nodeJS - does not understand DOM method 
+// let element = document.getElementById('divOne')
+// let file = '../FILE_Node/textFile.txt'
+// let reader = new FileReader();
+// reader.readAsText();
+// reader.onload = () => element.innerHTML = reader.result; 
+// element.innerHTML = 'script ........';
 
-function write(dataArg) {
-    fs.writeFile('textFile.txt', dataArg, err => {
-        if (err) {
-            console.log(err);
-            return; 
-        }
-    });
 
-    read();
-}
+let textarea = document.querySelector('textarea');
+let input = document.querySelector('input');
 
-function append(dataArg) {
-    fs.appendFile('textFile.txt', dataArg, err => {
-        if (err) {
-            console.log(err);
-            return; 
-        }
-    })
+input.addEventListener('change', () => {    
+    let reader = new FileReader();
+    reader.readAsText(input.files[0]);
+    reader.onload = (e) => {
+        textarea.value = e.target.result.split(/#/);
+        return textarea.value;
+    }
+});
 
-    read();
-}
+// let object = {
+//     proOne: 11,
+//     proTwo: 22,
+//     methodOne: function () {
+//         return this.proOne + this.proTwo;
+//     },
+//     methodTwo: function() {
+//         document.write('<br >');
+//         document.write('value : ' + (this.proOne + this.proTwo));
+//     }
+// };
 
-function read() {
-    fs.readFile('textFile.txt', 'utf8', (err, data) => {
-        if (err) {
-            console.log(err);
-            return;
-        } 
-        console.log(data);
-    });    
-}
-
-write('text added');
-// append();
+// document.write('<br > value : ');
+// document.write(object.methodOne());
+// object.methodTwo();
