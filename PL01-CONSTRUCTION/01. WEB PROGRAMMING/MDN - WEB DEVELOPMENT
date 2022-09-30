@@ -1,0 +1,312 @@
+===============================================================================
+MDN - GUIDES
+===============================================================================
+01. MDN learning area (learn web development)
+02. HTML (learn to structure web content with HTML)
+03. CSS (learn to style content using CSS)
+04. JavaScript (learn to run scripts in the browser)
+05. Accessibility (learn to make the web accessible to all)
+
+===============================================================================
+learn web development
+===============================================================================
+01. learn web development 
+02. complete beginners start here 
+    1. getting started with the web overview 
+    2. installing basic software 
+    3. what will your website look like 
+    4. dealing with files 
+    5. HTML basics 
+    6. CSS basics 
+    7. JavaScript basics 
+    8. publishing your web sites 
+    9. hwo the web works 
+
+===============================================================================
+HTML
+===============================================================================
+03. HTML - structuring the web (introduction to HTML)
+    1. introduction to HTML overview 
+    2. getting started with HTML 
+    3. what's in the head, metadata in HTML 
+    4. HTML text fundamentals 
+    5. creating hyperlinks
+    6. advanced text formatting 
+    7. document and website structure 
+    8. debugging HTML 
+    9. assessment: making up a letter 
+    10. assessment: structuring a page of content 
+04. HTML - structuring the web (multimedia and embedding)
+    1. multimedia and embedding overview 
+    2. images in HTML 
+    3. video and audio content 
+    4. from object to iframe - other embedding technologies 
+    5. adding vector graphics to the web 
+    6. responsive images 
+    7. assessment: mozilla splash page 
+05. HTML - structuring the web (HTML tables)
+    1. HTML tables overview 
+    2. HTML table basics 
+    3. HTML table advanced features and accessibility 
+    4. assessment: structuring planet data 
+
+===============================================================================
+CSS
+===============================================================================
+06. CSS - styling the web (CSS first steps)
+    1. CSS first steps overview 
+    2. what is CSS
+    3. getting started with CSS
+    4. how CSS is structured 
+    5. how CSS works 
+    6. assessment: styling a biography page
+06. CSS - styling the web (CSS building blocks)
+    1. CSS building blocks overview 
+    2. cascade and inheritance 
+    3. CSS selectors 
+    4. the box model 
+    5. backgrounds and borders 
+    6. handling different text directions 
+    7. overflowing content 
+    8. CSS values and units 
+    9. sizing items in CSS
+    10. images, media, and form elements 
+    11. styling tables 
+    12. debugging CSS 
+    13. organizing your CSS
+    14. assessment: fundamental CSS comprehension 
+    15. assessment: creating fancy letter-headed paper 
+    16. assessment: a cool-looking box 
+06. CSS - styling the web (styling text)
+    1. styling text overview 
+    2. fundamental text and font styling 
+    3. styling lists 
+    4. styling links 
+    5. web fonts 
+    6. assessment: typesetting a community school homepage 
+06. CSS - styling the web (CSS layout)
+    1. CSS layout overview 
+    2. introduction to CSS layout 
+    3. normal flow 
+    4. flexbox 
+    5. grids
+    6. floats 
+    7. positioning 
+    8. multiple-column layout 
+    9. responsive design 
+    10. beginner's guide to media queries 
+    11. legacy layout methods 
+    12. supporting older browsers 
+    13. assessment: fundamental layout comprehension 
+
+===============================================================================
+JavaScript
+===============================================================================
+07. JavaScript - dynamic client-side scripting (JavaScript first steps)
+    1. JavaScript first steps overview 
+    2. what is JavaScript 
+    3. a first splash into JavaScript 
+    4. what wet wrong, troubleshooting JavaScript 
+    5. storing the information you need - variables 
+    6. basic math in JavaScript - Numbers 
+    7. handling text - Strings in JavaScript 
+    8. useful string methods 
+    9. Arrays 
+    10. Assessment: silly story generator 
+08. JavaScript - dynamic client-side scripting (JavaScript building blocks)
+    1. JavaScript building blocks overview 
+    2. making decisions in Your code - conditionals 
+    3. looping code 
+    4. functions - reusable blocks of code 
+    5. build your own function 
+    6. function return values 
+    7. introduction to events 
+    8. assessment: image gallery 
+09. JavaScript - dynamic client-side scripting (introducing JavaScript objects)
+    1. introducing JavaScript objects over-view 
+    2. object basics 
+    3. object prototypes 
+    4. object-oriented programming concepts 
+    5. class in JavaScript 
+    6. working with JSON data 
+    7. object building practice 
+    8. assessment: adding features to our bouncing balls demo
+10. JavaScript - dynamic client-side scripting (asynchronous JavaScript)
+    1. asynchronous JavaScript overview 
+    2. introducing asynchronous JavaScript 
+    3. how to use promises
+    4. implementing a promise-based API 
+    5. introducing workers 
+    6. assessment: sequencing animations 
+11. JavaScript - dynamic client-side scripting (client-side web api)
+    1. client-side web api
+    2. introduction to web api
+    3. manipulating documents 
+    4. fetching data from the server 
+    5. fetching data from the server 
+    6. third party api
+    7. drawing graphics 
+    8. video and audio api 
+    9. client-side storage
+
+===============================================================================
+Web Forms 
+===============================================================================
+12. Web Forms - working with user data (core forms learning pathway)
+    1. web forms overview 
+    2. your first form 
+    3. how to structure a web form 
+    4. basic native form controls 
+    5. the HTML5 input types 
+    6. other form controls 
+    7. styling web forms 
+    8. advanced form styling 
+    9. UI pseudo-classes 
+    10. client-side form validation 
+    11. sending form data 
+13. Web Forms - working with user data (advanced forms articles)
+    1. how to build custom form controls 
+    2. sending form through JavaScript 
+    3. CSS property compatibility table for form controls 
+
+===============================================================================
+Accessibility
+===============================================================================
+14. Accessibility - make the web usable by everyone (accessibility guides)
+    1. accessibility overview 
+    2. what is accessibility 
+    3. HTML - a good basic for accessibility 
+    4. CSS and JavaScript accessibility best practices 
+    5. WAI-ARIA basic 
+    6. Accessible multimedia 
+    7. mobile accessibility 
+15. Accessibility - make the web usable by everyone (accessibility assessment)
+    1. assessment: accessibility troubleshooting 
+    
+===============================================================================
+MathML 
+===============================================================================
+16. MathML - writing mathematics with MathML (MathML first steps)
+    1. MathML first steps overview 
+    2. getting started with MathML
+    3. assessment: three famous mathematical formulas 
+
+===============================================================================
+Tools and Testing
+===============================================================================
+17. client-side web development tools 
+    1. client-side web development tools index
+    2. client-side tooling overview 
+    3. command line crash course 
+    4. package management basics 
+    5. introducing a complete toolchain 
+    6. deploying our app 
+
+18. introducing to client-side frameworks 
+    1. client-side frameworks overview 
+    2. framework main features 
+
+19. react 
+    1. getting started with react 
+    2. beginning our react todo list 
+    3. componentizing our react app 
+    4. rect interactivity - events and state 
+    5. rect interactivity - editing, filtering, conditional rendering 
+    6. accessiblity in react 
+    7. react resources 
+
+20. vue
+    1. getting started with vue 
+    2. creating our first vie component 
+    3. rendering a list of vue components 
+    4. adding a new todo form - vue events, methods, and models 
+    5. styling vue components with CSS 
+    6. using vue computed properties 
+    7. vue conditional rendering - editing existing todos 
+    8. focus management with vue refs 
+    9. vue resources 
+21. angular 
+    1. getting started with angular 
+    2. beginning our angular todo list app 
+    3. styling our angular app 
+    4. creating an item component 
+    5. filtering our to-do items 
+    6. building angular applications and further resources 
+22. git and gitHub 
+    1. git and gitHub overview 
+    2. hello world 
+    3. git handbook 
+    4. forking projects 
+    5. about pull request 
+    6. mastering issues 
+23. cross browser testing 
+    1. cross browser testing overview 
+    2. introduction to cross browser testing 
+    3. strategies for carrying out testing 
+    4. handling common HTML and CSS problems 
+    5. handling common JavaScript problems 
+    6. handling common accessibility problems 
+    7. implementing feature detection 
+    8. introduction to automated testing 
+    9. setting up your own test automation environment 
+24. Ember and Svelte Frameworks 
+
+===============================================================================
+Server-side website programming
+===============================================================================
+25. First steps 
+    1. First steps overview 
+    2. introduction to the server-side 
+    3. client-server overview 
+    4. server-side web frameworks 
+    5. website security 
+26. django web framework (python)
+    1. django web framework (python) - overview 
+    2. introduction 
+    3. setting up a development environment 
+    4. tutorial - the local library website 
+    5. tutorial part 2 - creating a skeleton website 
+    6. tutorial part 3 - using models 
+    7. tutorial part 4 - django admin site 
+    8. tutorial part 5 - creating our home page 
+    9. tutorial part 6 - generic list and detail views 
+    10. tutorial part 7 - sessions framework
+    11. tutorial part 8 - user authentication and permissions 
+    12. tutorial part 9 - working with forms 
+    13. tutorial part 10 - testing a django web application 
+    14. tutorial part 11 - deploying django to production 
+    15. tutorial part 12 - web application security 
+    16. tutorial part 13 - assessment: DIY mini blog 
+27. express web framework (node.js/JavaScript)
+    1. express web framework (node.js/javascript) overview 
+    2. express/node introduction 
+    3. setting up a node (express) development environment 
+    4. express tutorial - the local library 
+    5. express tutorial part 2 - creating a skeleton website 
+    6. express tutorial part 3 - using a data-base (with mongooes)
+    7. express tutorial part 4 - routes and controllers 
+    8. express tutorial part 5 - displaying library data 
+    9. express tutorial part 6 - working with forms 
+    10. express tutorial part 7 - deploying to production 
+
+===============================================================================
+Further Resources
+===============================================================================
+28. Common questions 
+    1. HTM questions 
+    2. CSS questions 
+    3. JavaScript questions 
+    4. Web mechanics 
+    5. Tools and setup 
+    6. design and accessibility 
+
+===============================================================================
+MDN - REFERENCES
+===============================================================================
+01. HTML (Structure of Content of the Web) 
+02. CSS (Code Used to Describe Document Style)
+03. JavaScript (General-Purpose Scripting Language)
+04. HTTP (Protocol for Transmitting Web Resources) 
+05. Web APIs (Interfaces for Building Web Application)
+06. Web Extensions (Developing Extensions for Web Browsers)
+07. Web Technology (Web Technology Reference for Developers)

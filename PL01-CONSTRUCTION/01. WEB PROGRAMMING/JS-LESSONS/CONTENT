@@ -1,0 +1,141 @@
+===============================================================================
+W3SCHOOLS
+===============================================================================
+# basic javascript 
+01. home | introduction 
+02. where to use | output 
+03. statements | syntax | comment 
+04. variable | let | const | scope | hosting | strict mode
+05. operators | arithmetic | assignment | precedence | comparisons | bitwise 
+06. if-else | switch | for | for-in | for-of | while | break | error
+
+# javascript data types 
+01. data types | typeof | type conversion | regExp
+02. strings | string methods | string search | string templates 
+03. numbers | number methods 
+04. arrays | array methods | array sort | array iteration | array const 
+05. dates | date formats | date get methods | date set methods 
+06. math | random 
+07. booleans 
+
+# javascript function 
+01. functions | arrow function | events
+02. function - (definitions | parameters ] invocation)
+03. function - (call | apply | bind)                    -- concept
+04. function - (closures)                               -- concept
+05. async - (callbacks | asynchronous)                  -- concept
+06. sync - (promises | async/await)                     -- concept
+
+# javascript object and prototype 
+01. objects | this | classes
+02. object - (definitions | properties | methods)
+03. object - (accessors | constructors | prototypes)
+04. object - (display | iterables | Sets | Maps)        -- concept 
+05. object - (reference)
+06. class - (intro | inheritance | static)              -- concept
+07. sets | maps                                         -- concept
+
+# javascript dom                                        -- concept
+01. dom - (intro | methods | document)
+02. dom - (elements | html | forms | css)
+03. dom - (animations)
+04. dom - (events | event listener)
+05. dom - (navigation | nodes | collections | node lists)
+
+# javascript bom                                        -- concept
+01. bom - (window | screen | location) 
+02. bom - (history | navigator | popup alert)
+03. bom - (timing | cookies) 
+
+# javascript and ajax                                   -- concept
+01. ajax - (intro | XMLHttp | request | response)
+02. ajax - (xml | php | asp | database | applications | example)
+
+# javascript and json                                   -- concept
+01. JSON
+02. json - (intro | syntax | json vs xml)
+03. json - (data types | parse | stringify)
+04. json - (objects | arrays | server | jsonp)
+05. json - (php | html)
+
+# javascript and nodeJS                                 -- concept
+01. node.js - (home | intro | get started)
+02. node.js - (modules | http module | file system)
+03. node.js - (url module | npm | events)
+04. node.js - (upload files | email)
+05. node.js - (mysql get stated)
+06. node.js - (create database | create table | insert into)
+07. node.js - (select from | where | order by)
+08. node.js - (delete | drop table | update)
+09. node.js - (limit | join)
+10. node.js - (mongoDB get started)
+11. node.js - (create database | create collection | insert)
+12. node.js - (find | query | sort)
+13. node.js - (delete | drop collection | update)
+14. node.js - (limit | join)
+15. node.js - (built-in modules references)
+
+# javascript api                                       -- concept
+01. api - (web api intro | forms api | history api) 
+02. api - (storage api | worker api | fetch api | geolocation api) 
+03. modules
+
+# javascript and library                                -- concept
+01. jquery - (selectors | html | css | dom)
+02. graphics - (graphics | canvas | plotly)
+03. graphics - (chart.js | google chart | d3.js)
+04. references - (objects | dom objects)
+
+# javascript style
+01. debugging | reserved words | versions
+02. style guide | best practices | mistakes | performance 
+
+===============================================================================
+MDN
+===============================================================================
+01. javascript 
+02. complete beginner 
+    1. javascript basics
+    2. javascript first steps 
+    3. javascript building blocks 
+    4. introducing javascript objects 
+    -- asynchronous javascript 
+    -- client-side web api
+03. javascript guide 
+    1. introduction 
+    2. grammar and types 
+    3. control flow and error handling 
+    4. loops and iteration 
+    5. functions 
+    6. expressions and operators 
+    7. numbers and dates 
+    8. text formatting 
+    9. indexed collections 
+    10. keyed collections 
+    11. working with objects 
+    12. using classes 
+    13. using promises 
+    14. iterators and generators  
+    15. meta programming 
+    16. javascript modules 
+04. intermediate 
+    1. client-side javascript frameworks 
+    2. client-side web apis 
+    3. language overview 
+    4. javascript data structures 
+    5. equality comparisons and sameness 
+    6. closures 
+05. advanced 
+    1. inheritance and the prototype chain 
+    2. strict mode 
+    3. javascript typed arrays 
+    4. memory management 
+    5. concurrency model and event loop 
+06. references 
+    1. built-in objects 
+    2. expressions and operators 
+    3. statements and declarations 
+    4. functions 
+    5. classes 
+    6. errors 
+    7. misc

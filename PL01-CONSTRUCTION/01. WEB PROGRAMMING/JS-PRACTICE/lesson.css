@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+}
+
+div {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    border: solid 1px #FFF;
+    border-radius: 6px;
+    color: #FFF
+}
+
+#styleOne {
+    background-color:darkgoldenrod;
+}
+
+#styleTwo {
+    background-color: darkcyan;
+}
+
+#styleThree {
+    background-color: darkorchid;
+}
